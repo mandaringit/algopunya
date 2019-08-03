@@ -1,25 +1,3 @@
-"""
-#1
-# 실행시간 1286ms
-cases = int(input())
-
-for case_count in range(cases):
-    case_number = int(input())
-    scores = list(map(int,input().split()))
-
-    biggest_often = 0
-    its_number = 0
-
-    for score in scores:
-        if scores.count(score) > biggest_often:
-            biggest_often = scores.count(score)
-            its_number = score
-        elif scores.count(score) == biggest_often:
-            if its_number < score:
-                its_number = score 
-
-    print(f"#{case_number} {its_number}")
-"""
 # 2
 # 실행시간 176ms
 cases = int(input())
@@ -46,3 +24,26 @@ for case_count in range(cases):
                 its_number = score
 
     print(f"#{case_number} {its_number}")
+
+"""
+#1
+# 실행시간 1286ms
+cases = int(input())
+
+for case_count in range(cases):
+    case_number = int(input())
+    scores = list(map(int,input().split()))
+
+    biggest_often = 0
+    its_number = 0
+
+    for score in scores:
+        if scores.count(score) > biggest_often:
+            biggest_often = scores.count(score)
+            its_number = score
+        elif scores.count(score) == biggest_often:
+            if its_number < score:
+                its_number = score 
+
+    print(f"#{case_number} {its_number}")
+"""
