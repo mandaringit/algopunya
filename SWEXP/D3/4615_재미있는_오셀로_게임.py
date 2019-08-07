@@ -12,45 +12,46 @@ def make_board(N):
     return board
 
 
+def isRightIndexRange(x, y, N):
+    return 0 <= x <= N - 1 and 0 <= y <= N - 1
+
+
+def isEnemy(x, y, enemy, board):
+    return board[x][y] == enemy
+
+
 def play_game(board, x, y, player, enemy):
 
-    for i in range(-1, 2):
-        for j in range(-1, 2):
+    for i in [-1, 0, 1]:
+        for j in [-1, 0, 1]:
 
             around_x = x + i
             around_y = y + j
 
-            if 0 <= around_x <= N - 1 and 0 <= around_y <= N - 1:
+            if isRightIndexRange(around_x, around_y, N) and isEnemy(around_x, around_y, enemy, board):
 
-                if (around_x, around_y) != (
-                        x, y) and board[around_x][around_y] == enemy:
+                copy_x = x
+                copy_y = y
 
-                    new_x = x
-                    new_y = y
+                enemy_location = []
 
-                    # 조건하나 추가 19개 -> 26개
-                    # 두칸 뛴게 범위 안이거나
-                    if 0 <= new_x+(2*i) <= N-1 and 0 <= new_y+(2*j) <= N-1:
+                while isRightIndexRange(copy_x + i, copy_y + j, N):
 
-                        # 0 이 아닐때만
-                        if board[new_x+(2*i)][new_y+(2*j)]:
+                    copy_x = copy_x + i
+                    copy_y = copy_y + j
 
-                            change_this = []
+                    board_value = board[copy_x][copy_y]
 
-                            while 0 <= new_x + i <= N - 1 and 0 <= new_y + j <= N - 1:
+                    if board_value == 0:
+                        break
 
-                                new_x = new_x + i
-                                new_y = new_y + j
+                    elif board_value != player:
+                        enemy_location.append([copy_x, copy_y])
 
-                                this_board_value = board[new_x][new_y]
-
-                                if this_board_value != player:
-                                    change_this.append([new_x, new_y])
-
-                                if this_board_value == player:
-                                    for c_arr in change_this:
-                                        board[c_arr[0]][c_arr[1]] = player
-                                    break
+                    elif board_value == player:
+                        for location in enemy_location:
+                            board[location[0]][location[1]] = player
+                        break
 
     return board
 
