@@ -1,3 +1,22 @@
+T = int(input())
+
+for tc in range(1, T + 1):
+    N = int(input())
+    prices = list(map(int, input().split()))
+
+    max_price = prices[-1]
+
+    total = 0
+
+    for i in range(N - 2, -1, -1):
+        if prices[i] <= max_price:
+            total += max_price - prices[i]
+        else:
+            max_price = prices[i]
+
+    print(f"#{tc}", total)
+
+"""
 # 리스트 컴프리헨션 보다 맵을 쓰면 좀더 빨라진다
 case_number = int(input())
 
@@ -25,6 +44,9 @@ for case_num in range(case_number):
             big_index = price_list.index(max_number)
 
     print(f"#{case_num+1} {profit_sum}")
+"""
+
+
 """
 case_number = 1
 
