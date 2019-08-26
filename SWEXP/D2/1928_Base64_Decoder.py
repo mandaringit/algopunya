@@ -14,9 +14,9 @@ for key in table_list:
     base64_table[key] = value
     value += 1
 
-case = int(input())
+T = int(input())
 
-for case_count in range(case):
+for tc in range(1, T + 1):
     encoded_word = input()
     decoded_word = ""
 
@@ -44,7 +44,7 @@ for case_count in range(case):
             binaryNbit = f"{number:b}"
             before6bitbinary = ""
             if len(binaryNbit) != 6:
-                before6bitbinary = (6-len(binaryNbit))*"0" + binaryNbit
+                before6bitbinary = (6 - len(binaryNbit)) * "0" + binaryNbit
                 binary6bit += before6bitbinary
             else:
                 binary6bit += binaryNbit
@@ -69,8 +69,7 @@ for case_count in range(case):
             total_word += chr(word)
         decoded_word += total_word
 
-    print(f"#{case_count+1} {decoded_word}")
-
+    print(f"#{tc} {decoded_word}")
 
 """
 # 테스트 끄적

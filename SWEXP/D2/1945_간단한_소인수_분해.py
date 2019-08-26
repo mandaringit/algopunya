@@ -1,8 +1,8 @@
-cases = int(input())
+T = int(input())
 
-for case_count in range(cases):
+for tc in range(1, T + 1):
     N = int(input())
-    result = f"#{case_count+1}"
+    result = f"#{tc}"
     power_dict = {
         2: 0,
         3: 0,
@@ -17,7 +17,7 @@ for case_count in range(cases):
         prime_factor = prime_factors[factor_idx]
         if N % prime_factor == 0:
             power_dict[prime_factor] += 1
-            N = N//prime_factor
+            N = N // prime_factor
         else:
             factor_idx += 1
 

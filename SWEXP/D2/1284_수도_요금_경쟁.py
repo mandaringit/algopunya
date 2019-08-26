@@ -11,11 +11,11 @@ else:
 print(min(company_A,company_B))
 """
 
-cases = int(input())
-for case_count in range(cases):
+T = int(input())
+for tc in range(1, T + 1):
     P, Q, R, S, W = tuple(map(int, input().split()))
 
-    com_A = W*P
-    com_B = Q if W <= R else Q + (W-R)*S
+    com_A = W * P
+    com_B = Q if W <= R else Q + (W - R) * S
 
-    print(f"#{case_count+1} {min(com_A,com_B)}")
+    print(f"#{tc} {min(com_A,com_B)}")

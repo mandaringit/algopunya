@@ -1,78 +1,69 @@
 # 시간초과
 # list.pop(0), list.index, list.insert, list.count, x in list, list[:-1] 등은 다 O(N)입니다.
 # list를 큐로 사용하면 절대, 절대, 절대, 절대, 절대 안 됩니다!! 큐는 반드시 collections.deque를 써야 합니다.
-
-# 그래도시간초과낭 ㅠ
+# 복사해서 비교해서 쓰니 통과했느ㅜㄴ데... 음..
 
 import sys
 
 sys.stdin = open('input.txt', 'r')
 
-from collections import deque
 
+def BFS(q, baked_t_count, box, copy):
+    max_day = 0
 
-def BFS(i, j, box, row, col, fake_box, cnt):
-    q = deque()
-    q.append([i, j])
-
-    visited = []
-
-    fake_box[i][j] = 0
     while q:
-        m, k = q.popleft()
+        i, j = q.popleft()
 
-        if [m, k] not in visited:
-            visited.append([m, k])
+        max_day = copy[i][j]  # 제일 큰 날은 가면 갈수록 늘어나니 가장 마지막것이 가장 큰것
 
-            d = [(-1, 0), (1, 0), (0, -1), (0, 1)]
+        d = [(-1, 0), (1, 0), (0, -1), (0, 1)]
 
-            for dx, dy in d:
+        for dx, dy in d:
 
-                ni = m + dx
-                nj = k + dy
+            ni = i + dx
+            nj = j + dy
 
-                if 0 <= ni < row and 0 <= nj < col:
-                    if box[ni][nj] == 0:
-                        if cnt == 0 and fake_box[ni][nj] == -2:
-                            q.append([ni, nj])
-                            fake_box[ni][nj] = fake_box[m][k] + 1
+            if 0 <= ni < N and 0 <= nj < M:
 
-                        else:
-                            if fake_box[ni][nj] > fake_box[m][k] + 1:
-                                q.append([ni, nj])
-                                fake_box[ni][nj] = fake_box[m][k] + 1
+                if box[ni][nj] == 0 and copy[ni][nj] == 0:
 
-    return fake_box
+                    q.append([ni, nj])
+                    baked_t_count += 1
+                    copy[ni][nj] = copy[i][j] + 1
+
+    return max_day, baked_t_count
 
 
-def welldone_tomato(N, M, box, fake_box):
-    cnt = 0
-    for i in range(N):
-        for j in range(M):
-
-            if box[i][j] == 1:
-                BFS(i, j, box, N, M, fake_box, cnt)
-                cnt += 1
-            elif box[i][j] == -1:
-                fake_box[i][j] = -1
-
-    max_day = -1
-
-    for row in fake_box:
-
-        if -2 in row:
-            return -1
-
-        value = max(row)
-
-        if value > max_day:
-            max_day = value
-
-    return max_day
-
+from collections import deque
 
 M, N = map(int, input().split())
 
 box = [list(map(int, input().split())) for _ in range(N)]
-fake_box = [[-2] * M for _ in range(N)]
-print(welldone_tomato(N, M, box, fake_box))
+
+copybox = [[0] * M for _ in range(N)]
+
+q = deque()
+
+baked_t_count = 0  # 이미 익은 토마토
+t_count = 0  # 익힐 토마토
+no_t_count = 0  # 토마토 없음
+
+for i in range(N):
+    for j in range(M):
+
+        if box[i][j] == 1:
+            q.append([i, j])
+            baked_t_count += 1
+        elif box[i][j] == 0:
+            t_count += 1
+        elif box[i][j] == -1:
+            no_t_count += 1
+
+if baked_t_count + no_t_count == N * M:
+    print(0)
+else:
+    max_day, baked_t_count = BFS(q, baked_t_count, box, copybox)
+    if baked_t_count + no_t_count != N * M:
+        print(-1)
+    else:
+        print(max_day)

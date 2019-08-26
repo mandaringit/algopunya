@@ -1,10 +1,10 @@
-cases = int(input())
+T = int(input())
 
-for case_count in range(cases):
+for tc in range(1, T + 1):
 
     zip_count = int(input())
     total_word = ""
-    result_word = f"#{case_count+1}\n"
+    result_word = f"#{tc}\n"
 
     for word_count in range(zip_count):
         zip_word = input().split()
