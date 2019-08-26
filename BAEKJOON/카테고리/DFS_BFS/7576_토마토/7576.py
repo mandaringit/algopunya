@@ -8,7 +8,7 @@ import sys
 sys.stdin = open('input.txt', 'r')
 
 
-def BFS(q, baked_t_count, box, copy):
+def BFS(q, N,M,baked_t_count, box, copy):
     max_day = 0
 
     while q:
@@ -62,7 +62,7 @@ for i in range(N):
 if baked_t_count + no_t_count == N * M:
     print(0)
 else:
-    max_day, baked_t_count = BFS(q, baked_t_count, box, copybox)
+    max_day, baked_t_count = BFS(q,N,M ,baked_t_count, box, copybox)
     if baked_t_count + no_t_count != N * M:
         print(-1)
     else:
