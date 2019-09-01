@@ -6,13 +6,12 @@ sys.stdin = open('sample_input.txt', 'r')
 def get_around(x, y, N):
     arounds = []
 
-    d = [[-1, -1, False], [-1, 1, False], [1, -1, False], [1, 1, False], [1, 0, False], [0, 1, False],
-         [-1, 0, False], [0, -1, False]]
+    d = [[1, -1, False], [1, 1, False], [1, 0, False]]
 
     mul = 1
     is_all_true = 0
 
-    while is_all_true != 8:
+    while is_all_true != 3:
 
         for i in range(0, len(d)):
 
