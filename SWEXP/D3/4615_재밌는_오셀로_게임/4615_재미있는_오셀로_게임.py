@@ -1,5 +1,9 @@
-def make_board(N):
+import sys
 
+sys.stdin = open('sample_input.txt', 'r')
+
+
+def make_board(N):
     board = []
     for i in range(N):
         board.append([0] * N)
@@ -21,7 +25,6 @@ def isEnemy(x, y, enemy, board):
 
 
 def play_game(board, x, y, player, enemy):
-
     for i in [-1, 0, 1]:
         for j in [-1, 0, 1]:
 
@@ -67,6 +70,7 @@ def count(board):
 
     return white, black
 
+
 # 실행
 
 
@@ -92,4 +96,4 @@ for t in range(1, T + 1):
 
     white, black = count(board)
 
-    print(f"#{t} {black} {white}")
+    print("#{} {} {}".format(t, black, white))
