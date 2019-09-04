@@ -20,8 +20,8 @@ for t in range(1, T + 1):
     result = dp[-1]
     if y < dp[-1]:
         result = y
-    print(f"#{t} {result}")
+    print("#{} {}".format(t,result))
 
 end = timeit.default_timer()
 
-print((end - start) * 1000)
+print(end - start)

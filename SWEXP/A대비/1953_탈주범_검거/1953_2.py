@@ -55,4 +55,4 @@ for tc in range(1, T + 1):
     total = 0
     for row in tunnel:
         total += row.count(1)
-    print("#{} {}".format(tc,total))
+    print("#{} {}".format(tc, total))

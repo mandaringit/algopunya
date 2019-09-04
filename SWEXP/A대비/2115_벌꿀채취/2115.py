@@ -2,6 +2,7 @@ import sys
 
 sys.stdin = open('sample_input.txt', 'r')
 
+
 # 70분 ..
 
 def get_max_honey_price(arr, C):
