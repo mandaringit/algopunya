@@ -29,7 +29,7 @@ def is_right_index_range(i, j, d):
     return False
 
 
-def infinity_pipe(x, y, current_direction):
+def f(x, y, current_state):
     global count
     global N
 
@@ -37,37 +37,33 @@ def infinity_pipe(x, y, current_direction):
         count += 1
     else:
         # 가로상태
-        if current_direction == 0:
+        if current_state == 0:
             for i in [0, 2]:
                 if is_right_index_range(x, y, i):  # 가능하면
                     if i == 0:
-                        infinity_pipe(x, y + 1, i)
+                        f(x, y + 1, i)
                     elif i == 2:
-                        infinity_pipe(x + 1, y + 1, i)
+                        f(x + 1, y + 1, i)
 
         # 세로 상태일때
-        elif current_direction == 1:
+        elif current_state == 1:
             for i in [1, 2]:
                 if is_right_index_range(x, y, i):  # 가능하면
-                    if i == 0:
-                        infinity_pipe(x + 1, y, i)
+                    if i == 1:
+                        f(x + 1, y, i)
                     elif i == 2:
-                        infinity_pipe(x + 1, y + 1, i)
-                else:
-                    return
+                        f(x + 1, y + 1, i)
 
         # 대각선 상태일때
-        elif current_direction == 2:
+        elif current_state == 2:
             for i in [0, 1, 2]:
                 if is_right_index_range(x, y, i):  # 가능하면
                     if i == 0:
-                        infinity_pipe(x, y + 1, i)
+                        f(x, y + 1, i)
                     elif i == 1:
-                        infinity_pipe(x + 1, y, i)
+                        f(x + 1, y, i)
                     elif i == 2:
-                        infinity_pipe(x + 1, y + 1, i)
-                else:
-                    return
+                        f(x + 1, y + 1, i)
 
 
 T = int(input())
@@ -79,6 +75,6 @@ for tc in range(1, T + 1):
 
     count = 0
 
-    infinity_pipe(0, 1, 0)
+    f(0, 1, 0)
 
-    print(count)
+    print("#{} {}".format(tc, count))

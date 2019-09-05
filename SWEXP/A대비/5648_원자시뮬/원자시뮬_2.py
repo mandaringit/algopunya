@@ -2,6 +2,7 @@ import sys
 
 sys.stdin = open('sample_input.txt', 'r')
 
+# 단순히 풀면 시간초과가 나긴 함
 
 class Atom:
     def __init__(self, x, y, direction, e):
@@ -43,13 +44,14 @@ for tc in range(1, T + 1):
         sec += 0.5
         locations = {}
 
-        for atom in atoms:
-            if not atom.is_dead:
-                coordinate = atom.move()
+        for i in range(len(atoms)):
+            if not atoms[i].is_dead:
+                coordinate = atoms[i].move()
                 if coordinate in locations:
-                    locations[coordinate].append(atom)
+                    locations[coordinate].append(atoms[i])
                 else:
-                    locations[coordinate] = [atom]
+                    locations[coordinate] = [atoms[i]]
+
 
         for coordinate in locations:
             if len(locations[coordinate]) >= 2:
