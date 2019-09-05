@@ -84,9 +84,9 @@ for tc in range(1, T + 1):
         micro = Micro(x, y, count, d, N)
         micros.append(micro)
 
-    sec = 0
-    while sec < M:
-        sec += 1  # 1초씩 직접 가보자
+    hour = 0
+    while hour < M:
+        hour += 1  # 1시간씩 직접 가보자
 
         locations = {}  # 좌표별로 한곳에 모이는 미생물을 모은다
 

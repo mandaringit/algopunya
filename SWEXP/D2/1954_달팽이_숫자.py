@@ -37,5 +37,6 @@ for t in range(1, 1 + T):
             direction = changeDirection(direction)
 
     print(f"#{t}")
+
     for line in arr:
         print(" ".join(line))
