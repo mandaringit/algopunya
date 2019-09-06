@@ -100,14 +100,12 @@ for tc in range(1, T + 1):
 
     total = 0
 
-    # 움직이기 전에 한번 체크
+    total += check_p(p1, p2, BCs)  # 움직이기 전에 한번 체크
 
-    total += check_p(p1, p2, BCs)
-
-    for i in range(len(p1_command)):
+    for i in range(len(p1_command)):  # 둘다 커맨드 길이가 같으니까 둘중 한명의 커맨드로 명령
         p1.move(p1_command[i])
         p2.move(p2_command[i])
 
-        total += check_p(p1, p2, BCs)
+        total += check_p(p1, p2, BCs)  # 이동 후 체크
 
     print("#{} {}".format(tc, total))
