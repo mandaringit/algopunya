@@ -2,7 +2,7 @@ import sys
 
 sys.stdin = open('input.txt', 'r')
 
-# 메모리 초과
+# 메모리 초과 / DFS로 다시 풀어보자
 
 from collections import deque
 
