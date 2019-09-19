@@ -3,8 +3,6 @@ import sys
 sys.stdin = open('sample_input.txt', 'r')
 
 
-# 백트래킹
-
 # 현재 row, 지금까지 선택된 공장(column)들, 지금까지 든 비용
 def DFS(i, selected_factories, total_cost):
     global costs

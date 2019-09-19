@@ -32,24 +32,19 @@ def BFS(lab):
 
 
 N, M = map(int, input().split())
-
 lab = [list(map(int, input().split())) for _ in range(N)]
 
 virus_positions = []
-
-# 벽을 세울 수 있는 곳들을 찾자
-possible_locations = set()
+possible_locations = set()  # 벽을 세울 수 있는 곳들을 찾자
 
 for i in range(N):
     for j in range(M):
         if lab[i][j] == 2:
             virus_positions.append([i, j])
-
         if lab[i][j] == 0:
             possible_locations.add((i, j))
 
 # 3개를 고르는 경우의 수를 만들자
-
 subsets = []
 p_count = len(possible_locations)
 for i in range(p_count):
@@ -60,9 +55,7 @@ for i in range(p_count):
             subsets.append(subset)
 
 maxV = 0
-
 for subset in subsets:
-
     # 랩 자체를 바꾸므로 딥카피해서 쓴다 (느리지만 어쩔수없엉)
     new_lab = copy.deepcopy(lab)
 
