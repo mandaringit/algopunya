@@ -17,7 +17,7 @@
 #         self.board = [(self.x, self.y)]
 #
 #
-# def DFS(start, N):
+# def DFS_BFS(start, N):
 #     stack = [start]
 #     count = 0
 #     while stack:
@@ -52,7 +52,7 @@
 #     for j in range(N):
 #         start = Node(0, j, 0, N)
 #
-#         count += DFS(start, N)
+#         count += DFS_BFS(start, N)
 #     print("#{} {}".format(tc, count))
 #
 # end = timeit.default_timer()
