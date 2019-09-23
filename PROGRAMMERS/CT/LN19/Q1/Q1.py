@@ -25,5 +25,5 @@ max_time = 0
 for consumer in consumers:
     if len(consumer) > max_time:
         max_time = len(consumer)
-
+print(consumers)
 print(max_time)

@@ -119,7 +119,7 @@ for size, numbers in print_this:
     for number in numbers:
         final.append(create_number(number, size))
 
-for i in range(max_size * 2 - 1): # 줄들
+for i in range(max_size * 2 - 1):  # 줄들
     line = []
     for number in final:
         line.append(number[i])
