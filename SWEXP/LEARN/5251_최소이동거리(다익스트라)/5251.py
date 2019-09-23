@@ -40,5 +40,5 @@ for tc in range(1, T + 1):
             v = adj[w][i]  # 인접 정점의 가중치
             if 0 < v < 11:  # 인접하면,
                 D[i] = min(D[i], D[w] + v)  # 비교
-    print(D)
+
     print("#{} {}".format(tc, D[N]))

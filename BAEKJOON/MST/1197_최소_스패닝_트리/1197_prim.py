@@ -2,6 +2,7 @@ import sys
 
 sys.stdin = open('input.txt', 'r')
 
+
 # 시간 초과
 
 def prim(start):
