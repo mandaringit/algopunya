@@ -11,6 +11,7 @@ def BFS(number):
     q = [(numbers, 0)]
     even_visited = []
     odd_visited = []
+
     while q:
         digits, count = q.pop(0)
 
@@ -26,6 +27,7 @@ def BFS(number):
                     join_num = ''.join(cp_nums)
 
                     go = True
+
                     if (count + 1) % 2 == 0:
                         if int(join_num) in odd_visited:
                             go = False

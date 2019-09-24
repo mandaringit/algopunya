@@ -2,7 +2,7 @@ import sys
 
 sys.stdin = open('sample_input.txt', 'r')
 
-# 상원이(1) 부터 시작해서, 최단 거리가 1 또는 2인 친구들의 수 => 다익스트라
+# 상원이(1) 부터 시작해서, 최단 거리가 1 또는 2인 친구들의 수 => 다익스트라 또는 단순 BFS
 
 T = int(input())
 
