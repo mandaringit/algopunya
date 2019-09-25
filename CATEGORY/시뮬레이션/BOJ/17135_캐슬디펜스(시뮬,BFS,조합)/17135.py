@@ -1,6 +1,7 @@
 # 입력 : 격자판 행의수 N, 열의 수 M , 궁수의 공격 거리 제한 D,
 # 둘째줄부터 격자판의 상태 (0)은 빈칸, (1)은 적
 # 출력 : 궁수의 공격으로 제거할 수 있는 적의 최대 수
+# 접근 :
 
 import sys
 
@@ -10,7 +11,7 @@ sys.stdin = open('input.txt', 'r')
 def BFS(i, j):
     global D
     q = [(i, j)]
-    visited = [(i, j)]
+    visited = []
     while q:
         i_, j_ = q.pop(0)
 
@@ -27,7 +28,8 @@ def BFS(i, j):
                         q.append((ni, nj))
                     elif diff == D:
                         visited.append((ni, nj))
-    return visited[1:]
+
+    return visited  # 궁수가 사격 가능한 좌표들 순서대로 저장됨
 
 
 class Archer:
@@ -41,7 +43,7 @@ class Archer:
 
         for i, j in self.shoot_ranges:
             value = board[i][j]
-            if isinstance(value, Enemy) and not value.is_dead:
+            if isinstance(value, Enemy):
                 value.hit()
                 break
 
@@ -53,19 +55,20 @@ class Enemy:
     def __init__(self, i, j):
         self.i = i
         self.j = j
+        self.is_hit = False
         self.is_dead = False
 
     def hit(self):
-        self.is_dead = True
+        self.is_hit = True
 
-    def move(self, board):
-        board[self.i][self.j] = 0  # 현재 위치 바꾸기
-        if not self.is_dead:
-            if 0 <= self.i + 1 < N:
-                self.i += 1
-                board[self.i][self.j] = self
+    def move(self):
+        self.i += 1
+        if self.is_hit:
+            self.is_dead = True
 
-        return board
+    def move_check(self):
+        if self.is_hit:
+            self.is_dead = True
 
 
 def Defence(a1, a2, a3):
@@ -75,11 +78,13 @@ def Defence(a1, a2, a3):
 
     maps = [[0] * M for _ in range(N)]
     enemies = []
+    # 적들의 초기위치 맵에 찍기 및 적들 담기
     for x, y in enemy_locs:
         e = Enemy(x, y)
         maps[x][y] = e
         enemies.append(e)
 
+    # 게임 시작
     for _ in range(N):
         a1.shoot(maps)
         a2.shoot(maps)
@@ -87,7 +92,18 @@ def Defence(a1, a2, a3):
 
         for e in enemies:
             if not e.is_dead:
-                e.move(maps)
+                e.move()
+
+        # 맵 초기화 -> 맘에 안듦
+        for i in range(N):
+            for j in range(M):
+                maps[i][j] = 0
+
+        # 적들의 위치 다시 찍기
+        for enemy in enemies:
+            i, j = enemy.i, enemy.j
+            if i < N and not enemy.is_dead:
+                maps[i][j] = enemy
 
     cnt = 0
     for e in enemies:
