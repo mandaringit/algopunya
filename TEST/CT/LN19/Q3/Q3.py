@@ -11,5 +11,5 @@ for _ in range(N):
 
     for i in range(go_time, back_time):
         toilet[i] += 1
-
+    print(toilet)
 print(max(toilet))

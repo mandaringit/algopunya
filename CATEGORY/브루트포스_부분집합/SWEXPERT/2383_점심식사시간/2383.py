@@ -64,8 +64,8 @@ for tc in range(1, T + 1):
                     cnt += 1
                 else:
                     time += 1
-
             last_t2 = time
+
         total_time = max(last_t1, last_t2)
         if total_time < minV:
             minV = total_time
