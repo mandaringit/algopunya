@@ -2,6 +2,7 @@ import sys
 
 sys.stdin = open('input.txt', 'r')
 
+# 시간초과
 
 def is_right_index_range(i, j, d):
     global room
