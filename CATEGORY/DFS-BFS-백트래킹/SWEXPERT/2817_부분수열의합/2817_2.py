@@ -3,26 +3,21 @@ import sys
 sys.stdin = open('input.txt', 'r')
 
 
-def DFS(i, summation, last, used):
-    global numbers, K, N, count
-    summation += numbers[i]
-    used[i] += 1
-    last -= numbers[i]
-
-    if summation == K:
-        count += 1
-    elif summation > K:
-        return
-    elif last + summation < K:
+def f(n, k, m):
+    global cnt
+    if n == k:
+        if m == K:
+            cnt += 1
+    elif m > K:
         return
     else:
-        for k in range(N):
-            if not used[k]:
-                DFS(k, summation, last, used[:])
+        f(n + 1, k, m)
+        f(n + 1, k, m + array[n])
 
 
-T = int(input())
-for tc in range(1, T + 1):
+for tc in range(1, int(input()) + 1):
     N, K = map(int, input().split())
-    numbers = list(sorted(list(map(int, input().split()))))
-    total = sum(numbers)
+    array = list(map(int, input().split()))
+    cnt = 0
+    f(0, N, 0)
+    print('#{} {}'.format(tc, cnt))
