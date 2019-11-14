@@ -3,7 +3,7 @@ import sys
 sys.stdin = open('input.txt', 'r')
 
 
-def BFS(i, j):
+def DFS(i, j):
     global field, visited, count
 
     d = [(0, 1), (0, -1), (1, 0), (-1, 0)]
@@ -61,7 +61,7 @@ while True:
     for i in range(12):
         for j in range(6):
             if field[i][j] in ['R', 'G', 'B', 'P', 'Y'] and visited[i][j] == 0:
-                BFS(i, j)  # 군집 찾아 폭발
+                DFS(i, j)  # 군집 찾아 폭발
 
     # 각 열들을 다시 정렬
     for i in range(6):

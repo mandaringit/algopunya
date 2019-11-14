@@ -1,99 +1,87 @@
-# import sys
-#
-# sys.stdin = open('sample_input.txt', 'r')
-#
-# from copy import deepcopy
-#
-#
-# def shoot(nw, n_count, maps):
-#     global H, W, N, brick, minbrick
-#     n_count += 1
-#     boomed_map = maps
-#     for h in range(H):
-#         if maps[h][nw] > 0:
-#             boomed_map = boom(h, nw, maps)
-#             break
-#
-#     is_change, aligned_map = align(boomed_map)
-#     if is_change and n_count < N:
-#         for w in range(W):
-#             n_maps = deepcopy(aligned_map)
-#             shoot(w, n_count, n_maps)
-#     elif n_count == N:
-#         br = 0
-#         for i in range(H):
-#             for j in range(W):
-#                 if aligned_map[i][j] > 0:
-#                     br += 1
-#         if br < minbrick:
-#             minbrick = br
-#     else:
-#         return
-#
-#
-# def align(boomed_map):
-#     global H, W
-#     is_change = False
-#
-#     for w in range(W):
-#         line = [0] * H
-#         idx = 0
-#         for h in range(H):
-#             value = boomed_map[h][w]
-#             if value > 0:
-#                 line[idx] = value
-#                 idx += 1
-#
-#         for h in range(H):
-#             if boomed_map[H - h - 1][w] != line[h]:
-#                 is_change = True
-#                 boomed_map[H - h - 1][w] = line[h]
-#
-#     return is_change, boomed_map
-#
-#
-# def boom(i, j, maps):
-#     global H, W
-#     d = [(0, 1), (0, -1), (1, 0), (-1, 0)]
-#
-#     deletion = {(i, j)}
-#     stack = [(i, j)]
-#
-#     while stack:
-#         i_, j_ = stack.pop(0)
-#         boom_range = maps[i_][j_]
-#
-#         if boom_range > 1:
-#             for r in range(boom_range):
-#                 for dx, dy in d:
-#                     ni = i_ + (dx * r)
-#                     nj = j_ + (dy * r)
-#
-#                     if 0 <= ni < H and 0 <= nj < W:
-#                         if maps[ni][nj] > 0 and (ni, nj) not in deletion:
-#                             deletion.add((ni, nj))
-#                             stack.append((ni, nj))
-#         else:
-#             deletion.add((i_, j_))
-#
-#     for di, dj in deletion:
-#         maps[di][dj] = 0
-#
-#     copy_map = deepcopy(maps)
-#     return copy_map
-#
-#
-# T = int(input())
-# for tc in range(1, T + 1):
-#     N, W, H = map(int, input().split())
-#     maps = [list(map(int, input().split())) for _ in range(H)]
-#     brick = 0
-#     minbrick = brick
-#     for i in range(H):
-#         for j in range(W):
-#             if maps[i][j] > 0:
-#                 brick += 1
-#
-#     for w in range(W):
-#         shoot(w, 0, maps)
-#     print(minbrick)
+import sys
+
+sys.stdin = open('sample_input.txt', 'r')
+
+from copy import deepcopy
+
+
+def clear_map(cmap):
+    global W, H
+
+    for j in range(W):
+        new_col = []
+        for i in range(H-1, -1, -1):
+            if cmap[i][j] > 0:
+                new_col.append(cmap[i][j])
+                cmap[i][j] = 0
+
+        clear_h = H-1
+        while new_col:
+            cmap[clear_h][j] = new_col.pop(0)
+            clear_h -= 1
+
+
+def boom(row, col, cmap):
+    d = [(0, 1), (0, -1), (1, 0), (-1, 0)]
+    remove_after = [(row, col)]
+
+    Stack = [(row, col)]
+
+    while Stack:
+        i, j = Stack.pop()
+        boom_range = cmap[i][j]
+
+        for dx, dy in d:
+            for multiple in range(1, boom_range):
+                ni = i+(multiple*dx)
+                nj = j+(multiple*dy)
+
+                if 0 <= ni < H and 0 <= nj < W:
+                    if cmap[ni][nj] > 0 and (ni, nj) not in remove_after:
+                        remove_after.append((ni, nj))
+                        Stack.append((ni, nj))
+
+    for i, j in remove_after:
+        cmap[i][j] = 0
+
+
+def shoot(col, cmap, count):  # col에 쏜다
+    global N, W, H  # 제한횟수,너비,깊이
+    global minBrick
+
+    # 터뜨리고
+    for row in range(H):
+        if cmap[row][col] > 0:
+            boom(row, col, cmap)
+            break
+    # 카운트 증가
+    count += 1
+    # 줄정리
+    clear_map(cmap)
+
+    # 부순 갯수 카운트
+    if count == N:
+        brick = 0
+        for i in range(H):
+            for j in range(W):
+                if cmap[i][j] > 0:
+                    brick += 1
+        if brick < minBrick:
+            minBrick = brick
+    else:
+        for next_col in range(W):
+            new_cmap = deepcopy(cmap)
+            shoot(next_col, new_cmap, count)
+
+
+T = int(input())
+for tc in range(1, T+1):
+    N, W, H = map(int, input().split())
+    maps = [list(map(int, input().split())) for _ in range(H)]
+
+    minBrick = W*H
+    for col in range(W):
+        cmap = deepcopy(maps)
+        shoot(col, cmap, 0)
+
+    print("#{} {}".format(tc, minBrick))
