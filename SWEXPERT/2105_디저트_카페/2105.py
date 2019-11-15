@@ -41,16 +41,19 @@ for tc in range(1, T + 1):
     # 시작점 선택
     for i1 in range(0, N - 1):
         for j1 in range(1, N - 1):
+
             # 두번째 점 선택
             for d1 in range(1, N):
                 i2 = i1 + (1 * d1)
                 j2 = j1 + (1 * d1)
                 if is_range_ok(i2, j2):
+
                     # 세번째 점 선택
                     for d2 in range(1, N):
                         i3 = i2 + (1 * d2)
                         j3 = j2 + (-1 * d2)
                         if is_range_ok(i3, j3):
+
                             # 4번째 점 확정
                             i4 = i3 + (-1 * d1)
                             j4 = j3 + (-1 * d1)
@@ -59,4 +62,5 @@ for tc in range(1, T + 1):
 
                                 if path_length > maxPath:
                                     maxPath = path_length
+
     print("#{} {}".format(tc, maxPath))
