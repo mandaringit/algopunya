@@ -3,16 +3,14 @@ import sys
 sys.stdin = open('input.txt', 'r')
 
 switch_count = int(input())
-
 switches = list(map(int, input().split()))
-
 student_count = int(input())
 
 for _ in range(student_count):
     # 남 1 여 2
     gender, switch_number = map(int, input().split())
-
     idx = switch_number - 1
+
     # 남자일때
     if gender == 1:
 
@@ -52,6 +50,5 @@ last = 20
 
 while start < switch_count:
     print(f"{' '.join(map(str,switches[start:last]))}")
-
     start += 20
     last += 20
