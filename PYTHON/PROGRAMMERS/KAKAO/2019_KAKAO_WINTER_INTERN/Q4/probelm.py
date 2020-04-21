@@ -1,6 +1,6 @@
 import sys
 
-sys.stdin = open('input.txt','r')
+sys.stdin = open('input.txt', 'r')
 
 # 효율성 ..
 def solution(k, room_number):
