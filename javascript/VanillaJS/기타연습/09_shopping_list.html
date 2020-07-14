@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Shopping List</h1>
+    <input id='item-input' type="text">
+    <button id='btn'>add</button>
+    <ul id="list"></ul>
+
+    <script>
+        btn = document.getElementById('btn')
+        input = document.getElementById('item-input')
+        ul = document.querySelector('#list')
+
+        btn.addEventListener('click', e => {
+            // input 밸류 가져오기.
+            const itemValue = input.value
+            input.value = ''
+
+            // 가져온 밸류로 태그 만들기.
+            const tag = document.createElement(`li`)
+            const text = document.createElement('span')
+            text.innerText = itemValue
+            tag.appendChild(text)
+            ul.appendChild(tag)
+
+            // 삭제
+            const deleteBtn = document.createElement('button')
+            deleteBtn.innerText = '삭제'
+            deleteBtn.addEventListener('click', e => {
+                tag.remove()
+            })
+            tag.appendChild(deleteBtn)
+
+            text.addEventListener('click', e => {
+                if (text.style.textDecoration === '') {
+                    text.style.textDecoration = 'line-through'
+                } else {
+                    text.style.textDecoration = ''
+                }
+            })
+        })
+    </script>
+</body>
+
+</html>

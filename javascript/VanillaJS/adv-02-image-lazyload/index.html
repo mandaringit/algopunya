@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>lazy load image</title>
+    <style>
+      img {
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <img
+      src="https://images.unsplash.com/photo-1587613863152-ecc4f2ea3dbd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3334&q=80"
+      alt=""
+      loading="lazy"
+    />
+    <script src="./index.js"></script>
+  </body>
+</html>
