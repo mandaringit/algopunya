@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<playground version='6.0' target-platform='ios'>
-    <pages>
-        <page name='구조체'/>
-        <page name='클래스'/>
-        <page name='구조체vs클래스'/>
-    </pages>
-</playground>
