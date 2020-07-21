@@ -1,7 +1,15 @@
-# 알고푸냐
+# APS
 
-SW EXPERT / 백준 / 프로그래머스 알고리즘 문제풀이
+Python, Javascript, Java 알고리즘 문제 연습
 
-카테고리별 알고리즘 분류하기
+## 커밋 컨벤션 (20.07.21 ~)
 
-입력, 출력, 및 접근법 적기
+```text
+언어 : [웹사이트] 문제
+```
+
+### 언어
+
+- js: JavaScript
+- py: Python
+- java: Java
