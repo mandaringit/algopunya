@@ -11,7 +11,7 @@ let N;
 let input = []
 let lineIdx = 0
 
-function InsertionSort(arr, N) {
+function insertionSort(arr, N) {
   // 1번째 인덱스부터 시작하여
   for (let i = 1; i < N; i++) {
     let idx = i;
@@ -38,6 +38,6 @@ rl.on("line", (line) => {
 })
   .on("close", () => {
     // 로직
-    InsertionSort(input, N).forEach(v => console.log(v));
+    insertionSort(input, N).forEach(v => console.log(v));
     process.exit()
   })
