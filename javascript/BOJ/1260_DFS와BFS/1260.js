@@ -39,7 +39,7 @@ function BFS(x) {
     const node = queue.shift();
     if (!visited.includes(node)) {
       visited.push(node)
-      for (let c of [...graph[node]].sort()) {
+      for (let c of [...graph[node]].sort((a, b) => a > b ? 1 : -1)) {
         if (!visited.includes(c)) {
           queue.push(c);
         }
