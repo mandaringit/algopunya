@@ -1,4 +1,4 @@
-# [BOJ] 2206
+# [BOJ] 2206 벽 부수고 이동하기
 
 - [ ] PYTHON
 - [x] JAVASCRIPT
