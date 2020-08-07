@@ -5,9 +5,9 @@ const readline = require('readline');
 const rl = readline.createInterface({
   input: fileStream,
   output: process.stdout,
-})
+});
 
-let input = []
+let input = [];
 
 class Queue {
   constructor(N) {
@@ -22,7 +22,7 @@ class Queue {
 
   push(X) {
     this.queue[this.rear] = X;
-    this.rear += 1
+    this.rear += 1;
   }
 
   pop() {
@@ -31,7 +31,7 @@ class Queue {
       this.front++;
       return value;
     }
-    return -1
+    return -1;
   }
 
   size() {
@@ -43,34 +43,35 @@ class Queue {
   }
 
   getRear() {
-    return this.empty() ? -1 : this.queue[this.rear-1];
+    return this.empty() ? -1 : this.queue[this.rear - 1];
   }
 }
 
-function queueProcess(N,input){
+function queueProcess(N, input) {
   const queue = new Queue(N);
-  input.forEach(cmds => {
-    const cmd =  cmds.split(" ");
-    if(cmd[0] === 'push') {
+  let result = '';
+  input.forEach((cmds) => {
+    const cmd = cmds.split(' ');
+    if (cmd[0] === 'push') {
       queue.push(cmd[1]);
-    } else if(cmd[0] === 'pop') {
-      console.log(queue.pop());
-    } else if (cmd[0] === 'size'){
-      console.log(queue.size());
-    } else if(cmd[0] === 'empty'){
-      console.log(queue.empty());
-    } else if(cmd[0] === 'front'){
-      console.log(queue.getFront());
-    } else if(cmd[0] === 'back'){
-      console.log(queue.getRear());
+    } else if (cmd[0] === 'pop') {
+      result += queue.pop() + '\n';
+    } else if (cmd[0] === 'size') {
+      result += queue.size() + '\n';
+    } else if (cmd[0] === 'empty') {
+      result += queue.empty() + '\n';
+    } else if (cmd[0] === 'front') {
+      result += queue.getFront() + '\n';
+    } else if (cmd[0] === 'back') {
+      result += queue.getRear() + '\n';
     }
-  })
+  });
+  return result;
 }
 
-rl.on("line", (line) => {
+rl.on('line', (line) => {
   input.push(line);
-})
-  .on("close", () => {
-    queueProcess(Number(input[0]),input.slice(1))
-    process.exit()
-  })
+}).on('close', () => {
+  console.log(queueProcess(Number(input[0]), input.slice(1)));
+  process.exit();
+});
