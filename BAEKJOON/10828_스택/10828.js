@@ -5,9 +5,9 @@ const readline = require('readline');
 const rl = readline.createInterface({
   input: fileStream,
   output: process.stdout,
-})
+});
 
-let input = []
+let input = [];
 
 class Stack {
   constructor(N) {
@@ -16,7 +16,7 @@ class Stack {
   }
 
   push(num) {
-    this.top += 1
+    this.top += 1;
     this.stack[this.top] = num;
   }
 
@@ -27,12 +27,12 @@ class Stack {
       this.top -= 1;
       return value;
     } else {
-      return -1
+      return -1;
     }
   }
 
   size() {
-    return this.top + 1
+    return this.top + 1;
   }
 
   empty() {
@@ -41,34 +41,36 @@ class Stack {
 
   getTop() {
     if (this.top > -1) {
-      return this.stack[this.top]
+      return this.stack[this.top];
     }
-    return -1
+    return -1;
   }
 }
 
 function stackProcess(N, cmds) {
-  const stack = new Stack(N)
-  cmds.forEach(cmd => {
-    cmd = cmd.split(" ");
+  const stack = new Stack(N);
+  let result = '';
+  cmds.forEach((cmd) => {
+    cmd = cmd.split(' ');
     if (cmd[0] === 'push') {
-      stack.push(Number(cmd[1]))
+      stack.push(Number(cmd[1]));
     } else if (cmd[0] === 'top') {
-      console.log(stack.getTop());
+      result += stack.getTop() + '\n';
     } else if (cmd[0] === 'pop') {
-      console.log(stack.pop());
+      result += stack.pop() + '\n';
     } else if (cmd[0] === 'size') {
-      console.log(stack.size());
+      result += stack.size() + '\n';
     } else if (cmd[0] === 'empty') {
-      console.log(stack.empty());
+      result += stack.empty() + '\n';
     }
-  })
+  });
+
+  return result;
 }
 
-rl.on("line", (line) => {
-  input.push(line)
-})
-  .on("close", () => {
-    stackProcess(Number(input[0]), input.slice(1))
-    process.exit()
-  })
+rl.on('line', (line) => {
+  input.push(line);
+}).on('close', () => {
+  console.log(stackProcess(Number(input[0]), input.slice(1)));
+  process.exit();
+});
