@@ -1,47 +1,46 @@
-const fs = require('fs');
-const fileStream = fs.createReadStream('input.txt');
-const readline = require('readline');
+const fs = require("fs");
+const fileStream = fs.createReadStream("input.txt");
+const readline = require("readline");
 
 const rl = readline.createInterface({
   input: fileStream,
   output: process.stdout,
-})
+});
 
-let N = null;
-let given = null;
-let M = null;
-let search = null;
-let i = 0;
+let input = [];
 
-function solution(N, M, given, search) {
-  // 일단 정렬
-  given.sort();
+function solution(N, M, givenNumbers, searchNumbers) {
+  const sortedGivenNumbers = [...givenNumbers].sort((a, b) => a - b);
+  searchNumbers.forEach((num) =>
+    console.log(binarySearch(sortedGivenNumbers, num) ? 1 : 0)
+  );
+}
 
-  function binarySearch(l, r, target) {
-    while (l <= r) {
-      const mid = Math.floor((l + r) / 2);
-      const midValue = given[mid];
-      if (midValue > target) r = mid - 1;
-      else if (midValue < target) l = mid + 1;
-      else return 1
+function binarySearch(arr, number) {
+  let left = 0;
+  let right = arr.length - 1;
+  while (left <= right) {
+    const mid = Math.floor((left + right) / 2);
+    const midValue = arr[mid];
+    if (midValue < number) {
+      left = mid + 1;
+    } else if (midValue > number) {
+      right = mid - 1;
+    } else {
+      return true;
     }
-    return 0;
   }
-
-  for (let num of search) {
-    console.log(binarySearch(0, N - 1, num))
-  }
-
+  return false;
 }
 
 rl.on("line", (line) => {
-  if (i === 0) N = Number(line);
-  else if (i === 1) given = line.split(" ").map(Number);
-  else if (i === 2) M = Number(line);
-  else search = line.split(" ").map(Number)
-  i++
-})
-  .on("close", () => {
-    solution(N, M, given, search)
-    process.exit()
-  })
+  input.push(line);
+}).on("close", () => {
+  // 로직
+  const N = Number(input[0]);
+  const M = Number(input[2]);
+  const givenNumbers = input[1].split(" ").map(Number);
+  const searchNumbers = input[3].split(" ").map(Number);
+  solution(N, M, givenNumbers, searchNumbers);
+  process.exit();
+});
