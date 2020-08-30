@@ -61,6 +61,10 @@
 - Sqrt(x) : 특정 수의 제곱근 찾기.
 - Squares of Sorted Array : 제곱 & 정렬
 
+#### T
+
+- Two Sum II : (정렬된 경우) 두 수의 합이 특정 수가 되는 경우, 두 수의 인덱스 찾기
+
 ### 🤯 아직 못풀었음. 쫌만 더 고민해보겠음
 
 - Find K Closest Elements : 어떤 수가 주어졌을때, 그 수에 가까운 K개의 수 구하기
