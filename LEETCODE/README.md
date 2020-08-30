@@ -10,7 +10,7 @@
 
 #### A
 
-- Add Binary : 이진수 더하기
+- Add Binary : 이진수 더하기 (문자열 다루기 ?)
 
 #### B
 
@@ -31,6 +31,10 @@
 #### G
 
 - Guess Number Higher or Lower : 술게임에서 소주병 밑에 숫자 맞추는 업다운 게임임. 이진탐색 기초
+
+#### I
+
+- 👀Implement strStr() : 문자열 A 안에 B가 있는지 찾는 문제 (find() 함수 등의 내부 동작 원리, KMP 알고리즘 시도해보기)
 
 #### L
 
