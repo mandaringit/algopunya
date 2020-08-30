@@ -39,6 +39,7 @@
 #### L
 
 - Largest Number At Least Twice of Others : 가장 큰 수를 찾고, 그 수가 다른 수들보다 2배 이상인지 아닌지 확인하기
+- Longest Common Prefix : 단어들 모두가 공통으로 가지고 있는 접두사 (prefix) 중 가장 긴 접두사를 찾아라
 
 #### M
 
