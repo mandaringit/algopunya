@@ -45,6 +45,7 @@
 #### M
 
 - Max Consecutive Ones : 1이 연속적으로 나오는 길이들 중 가장 긴것 찾기
+- 🤔Minimum Size Subarray Sum : 부분수열의 합이 S 이상인, "최소 길이" 부분수열 합을 구하는 문제. (O(N) & O(NlogN))
 
 #### P
 
@@ -52,6 +53,7 @@
 
 #### R
 
+- Remove Element : 원본 배열에서 특정 값 지우기, Two-Pointer(FastRunner, SlowRunner)
 - Reverse String : 배열안에 문자들을 반대로 뒤집는다. 단 원본 배열 그대로, 공간 복잡도 O(1)을 유지해야한다.
 
 #### S
