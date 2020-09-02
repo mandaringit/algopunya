@@ -1,6 +1,6 @@
 # [LEETCODE] Binary Tree Preorder Traversal
 
-배열로 주어진 이진 트리를 PreOrder - Traversal, 전위순회 하기. (재귀 & 순회)
+이진 트리가 주어졌을때, PreOrder - Traversal, 전위순회 하기. (재귀 & 순회)
 
 ### 재귀 & 순회
 

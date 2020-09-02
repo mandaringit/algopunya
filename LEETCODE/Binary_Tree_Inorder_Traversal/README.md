@@ -1,6 +1,6 @@
 # [LEETCODE] Binary Tree Inorder Traversal
 
-배열로 주어진 이진 트리를 Inorder - Traversal, 중위순회 하기. (재귀 & 순회)
+이진 트리가 주어졌을때, Inorder - Traversal, 중위순회 하기. (재귀 & 순회)
 
 ### 재귀 & 순회
 
