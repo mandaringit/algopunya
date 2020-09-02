@@ -15,6 +15,7 @@
 
 #### B
 
+- 💪Binary Tree Inorder Traversal : 배열로 주어진 이진 트리를 Inorder - Traversal, 중위순회 하기. (재귀 & 순회)
 - 💪Binary Tree Preorder Traversal : 배열로 주어진 이진 트리를 PreOrder - Traversal, 전위순회 하기. (재귀 & 순회)
 - 💪BinarySearch : 이진탐색이란?
 
