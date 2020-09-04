@@ -51,3 +51,4 @@
 - [x] Maximum Depth of Binary Tree : 이진 트리의 최대 깊이 찾기
 - [x] Validate Binary Search Tree : 올바른 Binary Search Tree 인지 판단하기
 - [x] Binary Search Tree Iterator : 이진 탐색 트리 BST 이터레이터를 직접 구현해보는 문제
+- [x] 💪Search in a Binary Search Tree : 이진 탐색 트리에서 검색 연산 구현하기
