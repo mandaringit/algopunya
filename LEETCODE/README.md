@@ -52,3 +52,4 @@
 - [x] Validate Binary Search Tree : 올바른 Binary Search Tree 인지 판단하기
 - [x] Binary Search Tree Iterator : 이진 탐색 트리 BST 이터레이터를 직접 구현해보는 문제
 - [x] 💪Search in a Binary Search Tree : 이진 탐색 트리에서 검색 연산 구현하기
+- [x] 💪Insert into a Binary Search Tree : 이진 탐색 트리 BST 에 요소 삽입하기
