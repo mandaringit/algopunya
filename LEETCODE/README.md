@@ -59,7 +59,8 @@
 
 ### Recursion
 
-- [x] 🤔Swap Node In Pairs : 링크드 리스트가 주어졌을 때, 인접한 두개의 노드의 헤드를 서로 바꾸기.
+- [ ] 🤔Swap Node In Pairs : 링크드 리스트가 주어졌을 때, 인접한 두개의 노드의 헤드를 서로 바꾸기.
+- [ ] 🤔Reverse Linked List : 링크드 리스트 뒤집기
 
 ### ?
 
