@@ -64,6 +64,7 @@
 - [x] Pascal's Triangle II : 파스칼의 삼각형 2. O(K) 공간만 사용
 - [x] Fibonacci Number : N번째 피보나치 수 구하기.
 - [x] 🤔Climbing Stairs : 1걸음 또는 2걸음만 걸을 수 있을 때, n개의 계단에 오르는 경우의 수는?
+- [x] Pow(x,n) : x의 n승 구하기
 
 ### ?
 
