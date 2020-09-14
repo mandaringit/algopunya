@@ -66,6 +66,7 @@
 - [x] 🤔Climbing Stairs : 1걸음 또는 2걸음만 걸을 수 있을 때, n개의 계단에 오르는 경우의 수는?
 - [x] Pow(x,n) : x의 n승 구하기
 - [x] Sort an Array : 배열 정렬하기 (Merge Sort)
+- [x] 🤔Search a 2D Matrix : 각 row 별, col 별로 오름차순 정렬된 2차원 배열에서 효율적으로 숫자 찾기 - D&C로 풀어볼것
 
 ### ?
 
