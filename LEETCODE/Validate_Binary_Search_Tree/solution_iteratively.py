@@ -28,12 +28,3 @@ class Solution:
                     stack.append((node.left, False))
 
         return True
-
-    # recursive
-    def isValidBST2(self, root: TreeNode, floor=float('-inf'), celing=float('inf')) -> bool:
-        if not root:
-            return True
-        if root.val <= floor or root.val >= celing:
-            return False
-
-        return self.isValidBST(root.left, floor=floor, celing=root.val) and self.isValidBST(root.right, floor=root.val, celing=celing)
