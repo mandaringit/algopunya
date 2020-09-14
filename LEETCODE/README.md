@@ -20,13 +20,13 @@
 - [x] Add Binary : 이진수 더하기 (문자열 다루기 ?)
 - [x] 👀Implement strStr() : 문자열 A 안에 B가 있는지 찾는 문제 (find() 함수 등의 내부 동작 원리, KMP 알고리즘 시도해보기)
 - [x] Longest Common Prefix : 단어들 모두가 공통으로 가지고 있는 접두사 (prefix) 중 가장 긴 접두사를 찾아라
-- [x] Reverse String : 배열안에 문자들을 반대로 뒤집는다. 단 원본 배열 그대로, 공간 복잡도 O(1)을 유지해야한다.
-- [x] Array Partition I : 2n 개의 정수 배열이 주어질때, 이 정수들을 n개의 짝으로 묶어야 하는데, 이 짝에서 작은 쪽의 합이 가장 큰 경우를 구하라
-- [x] Two Sum II : (정렬된 경우) 두 수의 합이 특정 수가 되는 경우, 두 수의 인덱스 찾기
-- [x] Max Consecutive Ones : 1이 연속적으로 나오는 길이들 중 가장 긴것 찾기
-- [x] 🤔Minimum Size Subarray Sum : 부분수열의 합이 S 이상인, "최소 길이" 부분수열 합을 구하는 문제. (O(N) & O(NlogN))
+- [x] Reverse String : 배열안에 문자들을 반대로 뒤집는다. 단 원본 배열 그대로, 공간 복잡도 O(1)을 유지해야한다. - 투포인터
+- [x] Array Partition I : 2n 개의 정수 배열이 주어질때, 이 정수들을 n개의 짝으로 묶어야 하는데, 이 짝에서 작은 쪽의 합이 가장 큰 경우를 구하라 - 투포인터
+- [x] Two Sum II : (정렬된 경우) 두 수의 합이 특정 수가 되는 경우, 두 수의 인덱스 찾기 - 투포인터
+- [x] Max Consecutive Ones : 1이 연속적으로 나오는 길이들 중 가장 긴것 찾기 - 투포인터
+- [x] 🤔Minimum Size Subarray Sum : 부분수열의 합이 S 이상인, "최소 길이" 부분수열 합을 구하는 문제. (O(N) & O(NlogN)) - 투포인터
 - [x] 💪Duplicated Zeros : 기존 배열을 복사하지 않고 하나씩 밀어보기. 배열 조작 이해
-- [x] Remove Element : 원본 배열에서 특정 값 지우기, Two-Pointer(FastRunner, SlowRunner)
+- [x] Remove Element : 원본 배열에서 특정 값 지우기, - 투포인터(FastRunner, SlowRunner)
 - [ ] Merge Sorted Array : 원본 배열에 절반을 채우는데, 정렬하면서 채우기
 - [ ] Spiral Matrix : 나선형으로 2차원 배열 순회하기
 
@@ -65,6 +65,7 @@
 - [x] Fibonacci Number : N번째 피보나치 수 구하기.
 - [x] 🤔Climbing Stairs : 1걸음 또는 2걸음만 걸을 수 있을 때, n개의 계단에 오르는 경우의 수는?
 - [x] Pow(x,n) : x의 n승 구하기
+- [x] Sort an Array : 배열 정렬하기 (Merge Sort)
 
 ### ?
 
