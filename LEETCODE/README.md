@@ -70,6 +70,7 @@
 - [x] 🤔N-Queens II : N이 주어질 때 가능한 N-Queens 경우의 수를 찾아라.
 - [x] 🤔Sudoku Solver : 스도쿠 풀기 (백트래킹)
 - [x] Same Tree : 같은 이진 트리인지 확인하기
+- [x] Generate Parentheses : n개의 `()`를 사용할 수 있을 때, 가능한 괄호 조합을 모두 찾기.
 
 ### ?
 
