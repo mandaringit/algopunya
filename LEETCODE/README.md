@@ -29,6 +29,7 @@
 - [x] Remove Element : 원본 배열에서 특정 값 지우기, - 투포인터(FastRunner, SlowRunner)
 - [ ] Merge Sorted Array : 원본 배열에 절반을 채우는데, 정렬하면서 채우기
 - [ ] Spiral Matrix : 나선형으로 2차원 배열 순회하기
+- [x] Running Sum of 1d Array : nums가 주어질 때, `runningSum[i] = sum(nums[0]…nums[i])`로 정의되는 누적합 배열 구하기
 
 ### Binary Search
 
