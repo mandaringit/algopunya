@@ -58,6 +58,10 @@
 - [x] 🤔Kth Largest Element in a Stream : 요소에서 K번째로 큰 숫자 찾기 (heapq)
 - [x] Lowest Common Ancestor of a Binary Search Tree : 이진 탐색 트리 BST에서 노드 두개가 주어질때, 두 노드가 가지는 가장 낮은 공통 조상(Lowest Common Ancestor)을 찾아라.
 
+### N-ary Tree
+
+- [x] 💪N-ary Tree Preorder Traversal : n-ary 트리가 주어질 때, preorder 하기
+
 ### Recursion
 
 - [ ] 🤔Swap Node In Pairs : 링크드 리스트가 주어졌을 때, 인접한 두개의 노드의 헤드를 서로 바꾸기.
