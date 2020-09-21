@@ -61,6 +61,7 @@
 ### N-ary Tree
 
 - [x] 💪N-ary Tree Preorder Traversal : n-ary 트리가 주어질 때, preorder 하기
+- [x] 💪N-ary Tree Postorder Traversal : n-ary 트리가 주어졌을 때, postorder 하기
 
 ### Recursion
 
