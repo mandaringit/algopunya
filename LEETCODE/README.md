@@ -63,6 +63,7 @@
 - [x] 💪N-ary Tree Preorder Traversal : n-ary 트리가 주어질 때, preorder 하기
 - [x] 💪N-ary Tree Postorder Traversal : n-ary 트리가 주어졌을 때, postorder 하기
 - [x] 💪N-ary Tree Level Order Traversal : n-ary 트리 레벨 순회 하기
+- [x] Maximum Depth of N-ary Tree : N-ary 트리의 최대 깊이 찾기
 
 ### Recursion
 
