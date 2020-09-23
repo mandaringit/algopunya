@@ -65,6 +65,7 @@
 - [x] 💪N-ary Tree Level Order Traversal : n-ary 트리 레벨 순회 하기
 - [x] Maximum Depth of N-ary Tree : N-ary 트리의 최대 깊이 찾기
 - [x] 💪Implement Trie(Prefix Tree) : Trie 구현하기
+- [x] Map Sum Pairs : 독특한 insert와 sum 메서드를 가진 MapSum 클래스 완성하기. (Trie)
 
 ### Recursion
 
