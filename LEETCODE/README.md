@@ -66,6 +66,7 @@
 - [x] Maximum Depth of N-ary Tree : N-ary 트리의 최대 깊이 찾기
 - [x] 💪Implement Trie(Prefix Tree) : Trie 구현하기
 - [x] Map Sum Pairs : 독특한 insert와 sum 메서드를 가진 MapSum 클래스 완성하기. (Trie)
+- [x] Replace Words : 주어진 문장의 특정 단어에 dictionary에 있는 root가 존재한다면 해당 단어를 successor를 제외한 root로 변경하여 다시 구성한 문장을 구하는 함수를 구현하라.
 
 ### Recursion
 
