@@ -31,6 +31,10 @@
 - [ ] Spiral Matrix : 나선형으로 2차원 배열 순회하기
 - [x] Running Sum of 1d Array : nums가 주어질 때, `runningSum[i] = sum(nums[0]…nums[i])`로 정의되는 누적합 배열 구하기
 
+# Stack & Queue
+
+- [x] Design Circular Queue : 원형 큐 구현하기
+
 ### Binary Search
 
 - [x] 💪BinarySearch : 이진탐색이란?
