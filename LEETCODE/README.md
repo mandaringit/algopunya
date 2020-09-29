@@ -95,3 +95,7 @@
 
 - [ ] Contain Duplicate III : 정수 배열이 주어졌을때, abs(nums[i] - nums[j]) >= t 이며 abs(i-j) >= k인 두개의 인덱스 i, j가 존재하는지 확인하라.
 - [x] Count Largest Group : 1 ~ n 까지 수들의 digit 합이 같은 것들끼리 그룹화 했을때, 가장 긴 그룹들의 갯수는? (해시?)
+
+### 구현
+
+- [x] Defanging an IP Address : 유효한 IP 주소(IPv4)가 주어질 때, 주소의 `.`을 `[.]`으로 교체하라.
