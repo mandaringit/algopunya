@@ -32,6 +32,7 @@
 - [x] Running Sum of 1d Array : nums가 주어질 때, `runningSum[i] = sum(nums[0]…nums[i])`로 정의되는 누적합 배열 구하기
 - [x] Kids With the Greatest Number of Candies : i번째 아이가 여분의 캔디를 받았 을 때 다른 아이들보다 최대가 될 수 있을지 여부를 모두 담은 배열을 리턴하자.
 - [x] Shuffle the Array : [x1,x2,...,xn,y1,y2,...,yn]과 같은 배열을 [x1,y1,x2,y2,...,xn,yn] 처럼 섞기
+- [x] Number of Good Pairs : `i < j`이고, `nums[i]` == `nums[j]`인 i,j 쌍의 갯수 찾기
 
 # Stack & Queue
 
