@@ -100,3 +100,4 @@
 ### 구현
 
 - [x] Defanging an IP Address : 유효한 IP 주소(IPv4)가 주어질 때, 주소의 `.`을 `[.]`으로 교체하라.
+- [x] Number of Steps to Reduce a Number to Zero : 정수가 주어질 때, 0이 되는데 걸리는 단계 수를 리턴해라. 짝수면 2로 나누고 아니면 1을 빼라.
