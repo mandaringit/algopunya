@@ -34,6 +34,7 @@
 - [x] Shuffle the Array : [x1,x2,...,xn,y1,y2,...,yn]과 같은 배열을 [x1,y1,x2,y2,...,xn,yn] 처럼 섞기
 - [x] Number of Good Pairs : `i < j`이고, `nums[i]` == `nums[j]`인 i,j 쌍의 갯수 찾기
 - [x] Jewels and Stones : 문자열 S에 문자열 J가 가진 character가 몇개인지 카운팅하기
+- [x] Shuffle String : 문자열 s를 자신의 위체에 주어진 인덱스 위치로 변경하기
 
 # Stack & Queue
 
