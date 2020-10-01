@@ -105,3 +105,4 @@
 - [x] Number of Steps to Reduce a Number to Zero : 정수가 주어질 때, 0이 되는데 걸리는 단계 수를 리턴해라. 짝수면 2로 나누고 아니면 1을 빼라.
 - [x] Subtract the Product and Sum of Digits of an Integer : 정수의 digit 단위 곱 - digit 단위 합 구하기
 - [x] Decompress Run-Length Encoded List : run-length encoding된 배열 nums가 주어질 때, 이를 decompressed 하기.
+- [x] Create Target Array in the Given Order : 값이 있는 nums 배열과 인덱스가 있는 index 배열이 주어질 때, index[i]에 nums[i]를 삽입한 배열을 리턴
