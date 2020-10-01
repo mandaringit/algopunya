@@ -1,12 +1,10 @@
-# APS
+# APS (Algorithm Problem Solving)
 
-Python, Javascript, Java 알고리즘 문제 연습.
-
-되도록 문제를 풀면서 들었던 생각, 겪었던 문제를 기록하려고 노력중입니다.
+문제를 풀고 접근했던 방법을 기록
 
 ## 커밋 컨벤션 (20.07.21 ~)
 
-### 문제 풀이
+### 언어
 
 - js: JavaScript
 - py: Python
@@ -20,3 +18,15 @@ Python, Javascript, Java 알고리즘 문제 연습.
 
 - refactor: 파일 & 폴더 구조 변경
 - docs: 문서 수정
+
+## Template
+
+### LEETCODE & python
+
+LEETCODE 하위에 문제 이름으로 폴더 및 필요한 파일을 자동으로 생성
+
+```bash
+python LEETCODE_template.py
+```
+
+이후 문제 이름 입력
