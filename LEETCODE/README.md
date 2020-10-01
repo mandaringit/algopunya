@@ -97,6 +97,7 @@
 
 - [ ] Contain Duplicate III : 정수 배열이 주어졌을때, abs(nums[i] - nums[j]) >= t 이며 abs(i-j) >= k인 두개의 인덱스 i, j가 존재하는지 확인하라.
 - [x] Count Largest Group : 1 ~ n 까지 수들의 digit 합이 같은 것들끼리 그룹화 했을때, 가장 긴 그룹들의 갯수는? (해시?)
+- [x] How Many Numbers Are Smaller Than the Current Number : 배열에서 현재 값 보다 작은건 몇개인지 알아내기
 
 ### 구현
 
