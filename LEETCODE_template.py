@@ -2,7 +2,7 @@ import os
 
 question_name = input("문제 이름을 입력해주세요.")
 
-underbar_name = question_name.replace(" ", "_")
+underbar_name = question_name.strip().replace(" ", "_")
 directory = f"LEETCODE/{underbar_name}"
 
 if not os.path.isdir(directory):
