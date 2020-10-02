@@ -39,6 +39,7 @@
 # Stack & Queue
 
 - [x] Design Circular Queue : 원형 큐 구현하기
+- [x] Split a String in Balanced Strings : L과 R이 동일한 갯수만큼 들어간 string을 balanced string이라고 할 때, 문자열 s에서 balanced string의 갯수는?
 
 ### Binary Search
 
