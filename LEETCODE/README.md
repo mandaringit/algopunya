@@ -111,6 +111,7 @@
 - [x] XOR Operation in an Array : nums 배열의 값을 모두 XOR 연산한 값 리턴하기
 - [x] Sum of All Odd Length Subarrays : 홀수 길이의 모든 부분 배열의 합 구하기 (수학?)
 - [x] Design Parking System : (간단한) 주차 시스템 구현하기
+- [x] Count Good Triplets : 정수 배열 arr과 세 정수 a,b,c가 주어질 때, good triplets을 찾아라.
 
 ### bit
 
