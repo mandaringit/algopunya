@@ -115,6 +115,7 @@
 - [x] To Lower Case : 소문자로 변형하기
 - [x] Minimum Time Visiting All Points : 좌표들이 주어질 때, 배열 순서대로 좌표들을 방문하는 최단시간 구하기
 - [x] Matrix Diagonal Sum : 2차원 배열의 대각선 두개 안의 값들의 합 구하기
+- [x] Remove Outermost Parentheses : 유효한 괄호 문자열이 주어질 때 가장 바깥쪽의 괄호들을 제거한 문자열 반환하기
 
 ### bit
 
