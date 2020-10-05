@@ -114,6 +114,7 @@
 - [x] Count Good Triplets : 정수 배열 arr과 세 정수 a,b,c가 주어질 때, good triplets을 찾아라.
 - [x] To Lower Case : 소문자로 변형하기
 - [x] Minimum Time Visiting All Points : 좌표들이 주어질 때, 배열 순서대로 좌표들을 방문하는 최단시간 구하기
+- [x] Matrix Diagonal Sum : 2차원 배열의 대각선 두개 안의 값들의 합 구하기
 
 ### bit
 
