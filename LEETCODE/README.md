@@ -36,6 +36,7 @@
 - [x] Jewels and Stones : 문자열 S에 문자열 J가 가진 character가 몇개인지 카운팅하기
 - [x] Shuffle String : 문자열 s를 자신의 위체에 주어진 인덱스 위치로 변경하기
 - [x] Maximum 69 Number : 6과 9로만 구성된 정수 num이 주어질 때 최대 하나(at most)의 digit만 변경 (6 -> 9, 9 ->6)해 만들 수 있는 가장 큰 수를 구하라. (그리디?)
+- [x] Maximum Product of Two Elements in an Array : 가장 큰 두 수 찾아 곱하기
 
 # Stack & Queue
 
