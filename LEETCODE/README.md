@@ -98,12 +98,6 @@
 - [x] Same Tree : 같은 이진 트리인지 확인하기
 - [x] Generate Parentheses : n개의 `()`를 사용할 수 있을 때, 가능한 괄호 조합을 모두 찾기.
 
-### ?
-
-- [ ] Contain Duplicate III : 정수 배열이 주어졌을때, abs(nums[i] - nums[j]) >= t 이며 abs(i-j) >= k인 두개의 인덱스 i, j가 존재하는지 확인하라.
-- [x] Count Largest Group : 1 ~ n 까지 수들의 digit 합이 같은 것들끼리 그룹화 했을때, 가장 긴 그룹들의 갯수는? (해시?)
-- [x] How Many Numbers Are Smaller Than the Current Number : 배열에서 현재 값 보다 작은건 몇개인지 알아내기
-
 ### 구현
 
 - [x] Defanging an IP Address : 유효한 IP 주소(IPv4)가 주어질 때, 주소의 `.`을 `[.]`으로 교체하라.
@@ -123,6 +117,16 @@
 - [x] Unique Morse Code Words : 모스부호로 변환한 단어의 unique한 모양의 갯수 구하기
 - [x] Decrypt String from Alphabet to Integer Mapping : 문자열 해독하기 (숫자#, 숫자 구분)
 
+### hashmap / hashset
+
+- [x] Count Largest Group : 1 ~ n 까지 수들의 digit 합이 같은 것들끼리 그룹화 했을때, 가장 긴 그룹들의 갯수는?
+- [x] Destination City : 다른곳으로 가는 길이 없는 도시 구하기
+
 ### bit
 
 - [x] Convert Binary Number in a Linked List to Integer : Singley Linked List에 있는 이진수를 십진수로 변환하기
+
+### ?
+
+- [ ] Contain Duplicate III : 정수 배열이 주어졌을때, abs(nums[i] - nums[j]) >= t 이며 abs(i-j) >= k인 두개의 인덱스 i, j가 존재하는지 확인하라.
+- [x] How Many Numbers Are Smaller Than the Current Number : 배열에서 현재 값 보다 작은건 몇개인지 알아내기
