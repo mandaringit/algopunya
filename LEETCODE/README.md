@@ -39,6 +39,7 @@
 - [x] Maximum Product of Two Elements in an Array : 가장 큰 두 수 찾아 곱하기
 - [x] Number of Students Doing Homework at a Given Time : 특정 시간이 포함된 구간을 갖는 학생의 갯수 세기
 - [x] Flipping an Image : binary matrix A를 flip & invert 하기
+- [x] Count Negative Numbers in a Sorted Matrix : 정렬된 2차원 배열에서 음수 갯수 세기
 
 # Stack & Queue
 
