@@ -38,6 +38,7 @@
 - [x] Maximum 69 Number : 6과 9로만 구성된 정수 num이 주어질 때 최대 하나(at most)의 digit만 변경 (6 -> 9, 9 ->6)해 만들 수 있는 가장 큰 수를 구하라. (그리디?)
 - [x] Maximum Product of Two Elements in an Array : 가장 큰 두 수 찾아 곱하기
 - [x] Number of Students Doing Homework at a Given Time : 특정 시간이 포함된 구간을 갖는 학생의 갯수 세기
+- [x] Flipping an Image : binary matrix A를 flip & invert 하기
 
 # Stack & Queue
 
