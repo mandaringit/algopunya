@@ -127,6 +127,10 @@
 
 - [x] Convert Binary Number in a Linked List to Integer : Singley Linked List에 있는 이진수를 십진수로 변환하기
 
+### math
+
+- [x] Find N Unique Integers Sum up to Zero : 정수 n이 주어질 때, 합이 0이 되는 n개의 unique한 정수 배열을 찾아라. (모든 경우 가능)
+
 ### ?
 
 - [ ] Contain Duplicate III : 정수 배열이 주어졌을때, abs(nums[i] - nums[j]) >= t 이며 abs(i-j) >= k인 두개의 인덱스 i, j가 존재하는지 확인하라.
