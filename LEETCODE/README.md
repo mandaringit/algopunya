@@ -42,6 +42,7 @@
 - [x] Count Negative Numbers in a Sorted Matrix : 정렬된 2차원 배열에서 음수 갯수 세기
 - [x] Increasing Decreasing String : 문자열이 주어졌을때, 중복없는 알파벳의 오름차순 정렬 문자열 + 내림차순 정렬 문자열을 반복해 정렬한 문자열 반환
 - [x] Generate a String With Characters That Have Odd Counts : n의 길이를 구성하는 알파벳이 홀수번만 나오도록 하는 문자열 만들기 (다양한 경우 존재)
+- [x] Sort Array By Parity : 주어진 배열을 짝수가 모두 온 다음 홀수가 모두 오는 순서로 정렬하자. (순서 상관 X) (투포인터?)
 
 # Stack & Queue
 
