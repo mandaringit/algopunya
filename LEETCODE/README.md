@@ -2,6 +2,8 @@
 
 리트코드 정복하기
 
+🎉 100문제 달성 (2020.10.08)
+
 - 💪 : 기초적인 문제. 첫 틀을 잡는데 도움
 - 🤔 : 고민했던 문제
 - 👀 : 좀더 효율적인 방법은 없는지 찾아볼 문제
@@ -123,6 +125,7 @@
 - [x] Cells with Odd Values in a Matrix : 0으로 초기화된 n\*m 배열과 증가시킬 row, col의 인덱스 [ri, ci] 들이 포함된 배열이 주어지면 해당 row와 col을 1씩 증가시킨 2차원 배열에서 홀수 값들을 모두 더한 값을 리턴 (수학?)
 - [x] Unique Morse Code Words : 모스부호로 변환한 단어의 unique한 모양의 갯수 구하기
 - [x] Decrypt String from Alphabet to Integer Mapping : 문자열 해독하기 (숫자#, 숫자 구분)
+- [x] Self Dividing Numbers : 상한과 하한이 주어질 때 그 안에서 가능한 self dividing number 모두 구하기
 
 ### hashmap / hashset
 
