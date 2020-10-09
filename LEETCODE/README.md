@@ -128,6 +128,7 @@
 - [x] Unique Morse Code Words : 모스부호로 변환한 단어의 unique한 모양의 갯수 구하기
 - [x] Decrypt String from Alphabet to Integer Mapping : 문자열 해독하기 (숫자#, 숫자 구분)
 - [x] Self Dividing Numbers : 상한과 하한이 주어질 때 그 안에서 가능한 self dividing number 모두 구하기
+- [x] Robot Return to Origin : (0,0)에서 시작한 로봇이 주어진 방향으로 움직인 뒤 원래 자리에 있을지 여부 판단
 
 ### hashmap / hashset
 
