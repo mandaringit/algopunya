@@ -139,6 +139,7 @@
 ### bit
 
 - [x] Convert Binary Number in a Linked List to Integer : Singley Linked List에 있는 이진수를 십진수로 변환하기
+- [x] Hamming Distance : 두 수 x, y를 이진수로 표현했을 때 같은 자리에 서로 다른 비트는 몇개 있는지 구하라.
 
 ### math
 
