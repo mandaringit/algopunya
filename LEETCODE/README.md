@@ -46,6 +46,7 @@
 - [x] Generate a String With Characters That Have Odd Counts : n의 길이를 구성하는 알파벳이 홀수번만 나오도록 하는 문자열 만들기 (다양한 경우 존재)
 - [x] Sort Array By Parity : 주어진 배열을 짝수가 모두 온 다음 홀수가 모두 오는 순서로 정렬하자. (순서 상관 X) (투포인터?)
 - [x] Replace Elements with Greatest Element on Right Side : 자신을 자신의 오른쪽에 있는 요소들 중 가장 큰 수로 교체한 결과를 리턴
+- [x] N-Repeated Element in Size 2N Array : 2N 길이의 배열 A에는 N+1개의 unique한 요소가 있고, 그 중 하나는 반드시 N번 등장한다. 이때 N번 등장하는 요소의 값을 리턴.
 
 # Stack & Queue
 
