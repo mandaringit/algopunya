@@ -85,6 +85,7 @@
 - [x] Lowest Common Ancestor of a Binary Search Tree : 이진 탐색 트리 BST에서 노드 두개가 주어질때, 두 노드가 가지는 가장 낮은 공통 조상(Lowest Common Ancestor)을 찾아라.
 - [x] Range Sum of BST : BST의 특정 구간 안에 포함된 수 모두 더하기
 - [x] Merge Two Binary Trees : 두개의 이진트리 합치기
+- [x] Increasing Order Search Tree : BST를 in-order 순서로 재정렬하기
 
 ### N-ary Tree / Trie
 
