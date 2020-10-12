@@ -55,6 +55,7 @@
 - [x] Design Circular Queue : 원형 큐 구현하기
 - [x] Split a String in Balanced Strings : L과 R이 동일한 갯수만큼 들어간 string을 balanced string이라고 할 때, 문자열 s에서 balanced string의 갯수는?
 - [x] Final Prices With a Special Discount in a Shop : i번째 아이템을 사면, i < j 이면서 prices[i] >= prices[j]를 만족하는 가장 작은 인덱스 j의 가격 만큼 할인이 가능하다. 각 아이템의 마지막 가격은? (monotonic stack)
+- [x] Number of Recent Calls : 특정 시간 프레임 안의 요청의 갯수를 세는 클래스 만들기
 
 ### Binary Search
 
