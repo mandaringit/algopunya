@@ -48,6 +48,7 @@
 - [x] Replace Elements with Greatest Element on Right Side : 자신을 자신의 오른쪽에 있는 요소들 중 가장 큰 수로 교체한 결과를 리턴
 - [x] N-Repeated Element in Size 2N Array : 2N 길이의 배열 A에는 N+1개의 unique한 요소가 있고, 그 중 하나는 반드시 N번 등장한다. 이때 N번 등장하는 요소의 값을 리턴.
 - [x] DI String Match : 0 ~ N까지 숫자를 I(증가), D(감소)조합에 맞춰 반환해라.
+- [x] Make Two Arrays Equal by Reversing Sub-arrays : 빈 배열이 아닌 부분 배열을 골라 뒤집을 수 있을 때, 현재 배열을 목표 배열의 모양으로 만들 수 있는지 여부 확인
 
 # Stack & Queue
 
