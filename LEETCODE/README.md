@@ -69,6 +69,7 @@
 - [x] 🤔Find Minimum in Rotated Sorted Array : 정렬된 배열이 특정 인덱스를 기준으로 뒤집혀있을때, 특정 수 찾기. 근데 그게 최솟값. 브루트포스 O(N) vs 이진탐색 O(logN)
 - [x] 🤔Search for a Range : 특정 수의 처음 - 시작 범위 구하기. 이진 탐색 응용
 - [ ] Find K Closest Elements : 어떤 수가 주어졌을때, 그 수에 가까운 K개의 수 구하기
+- [x] Peak Index in a Mountain Array : Peak 값 찾기
 
 ### Binary Tree & Binary Search Tree
 
