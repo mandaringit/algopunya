@@ -49,6 +49,7 @@
 - [x] N-Repeated Element in Size 2N Array : 2N 길이의 배열 A에는 N+1개의 unique한 요소가 있고, 그 중 하나는 반드시 N번 등장한다. 이때 N번 등장하는 요소의 값을 리턴.
 - [x] DI String Match : 0 ~ N까지 숫자를 I(증가), D(감소)조합에 맞춰 반환해라.
 - [x] Make Two Arrays Equal by Reversing Sub-arrays : 빈 배열이 아닌 부분 배열을 골라 뒤집을 수 있을 때, 현재 배열을 목표 배열의 모양으로 만들 수 있는지 여부 확인
+- [x] Can Make Arithmetic Progression From Sequence : 서로 인접한 두 수의 차이가 일정하게끔 정렬이 가능한지 여부 판단
 
 # Stack & Queue
 
