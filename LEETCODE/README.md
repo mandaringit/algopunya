@@ -152,6 +152,10 @@
 
 - [x] Find N Unique Integers Sum up to Zero : 정수 n이 주어질 때, 합이 0이 되는 n개의 unique한 정수 배열을 찾아라. (모든 경우 가능)
 
+### Greedy
+
+- [x] Minimum Subsequence in Non-Increasing Order : sum(부분집합) > sum(그외 요소들)인 부분집합을 구하라. 여러개가 존재할 경우 가장 작은 사이즈, 그리고 같은 사이즈라면 합이 더 큰 것을 찾자.
+
 ### ?
 
 - [ ] Contain Duplicate III : 정수 배열이 주어졌을때, abs(nums[i] - nums[j]) >= t 이며 abs(i-j) >= k인 두개의 인덱스 i, j가 존재하는지 확인하라.
