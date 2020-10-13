@@ -90,6 +90,7 @@
 - [x] Range Sum of BST : BST의 특정 구간 안에 포함된 수 모두 더하기
 - [x] Merge Two Binary Trees : 두개의 이진트리 합치기
 - [x] Increasing Order Search Tree : BST를 in-order 순서로 재정렬하기
+- [x] Sum of Root To Leaf Binary Numbers : 모든 값이 0 또는 1인 이진 트리에서 가장 루트를 MSB로 해서, 리프노드까지 값으로 만들어지는 이진수의 합을 구하라.
 
 ### N-ary Tree / Trie
 
