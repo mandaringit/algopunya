@@ -155,6 +155,7 @@
 ### math
 
 - [x] Find N Unique Integers Sum up to Zero : 정수 n이 주어질 때, 합이 0이 되는 n개의 unique한 정수 배열을 찾아라. (모든 경우 가능)
+- [x] Find Positive Integer Solution for a Given Equation : `f(x, y) < f(x + 1, y)`, `f(x, y) < f(x, y + 1)`를 만족하는 랜덤 함수가 주어질 때, `f(x,y) == z`를 만족하는 쌍을 모두 찾아라.
 
 ### Greedy
 
