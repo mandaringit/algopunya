@@ -145,6 +145,7 @@
 - [x] Count Largest Group : 1 ~ n 까지 수들의 digit 합이 같은 것들끼리 그룹화 했을때, 가장 긴 그룹들의 갯수는?
 - [x] Destination City : 다른곳으로 가는 길이 없는 도시 구하기
 - [x] Unique Number of Occurrences : 값들의 발생 빈도가 unique한지 판단하기
+- [x] Subdomain Visit Count : 모든 하위도메인의 방문 횟수 구하기
 
 ### bit
 
