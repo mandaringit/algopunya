@@ -111,8 +111,6 @@
 
 ### Recursion
 
-- [ ] 🤔Swap Node In Pairs : 링크드 리스트가 주어졌을 때, 인접한 두개의 노드의 헤드를 서로 바꾸기.
-- [ ] 🤔Reverse Linked List : 링크드 리스트 뒤집기
 - [x] Pascal's Triangle II : 파스칼의 삼각형 2. O(K) 공간만 사용
 - [x] Fibonacci Number : N번째 피보나치 수 구하기.
 - [x] 🤔Climbing Stairs : 1걸음 또는 2걸음만 걸을 수 있을 때, n개의 계단에 오르는 경우의 수는?
@@ -123,6 +121,12 @@
 - [x] 🤔Sudoku Solver : 스도쿠 풀기 (백트래킹)
 - [x] Same Tree : 같은 이진 트리인지 확인하기
 - [x] Generate Parentheses : n개의 `()`를 사용할 수 있을 때, 가능한 괄호 조합을 모두 찾기.
+
+### Linked List
+
+- [x] Middle of the Linked List : Singly Linked List의 중간 구하기
+- [ ] 🤔Swap Node In Pairs : 링크드 리스트가 주어졌을 때, 인접한 두개의 노드의 헤드를 서로 바꾸기.
+- [ ] 🤔Reverse Linked List : 링크드 리스트 뒤집기
 
 ### 구현
 
