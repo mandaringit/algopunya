@@ -74,6 +74,7 @@
 - [x] 🤔Search for a Range : 특정 수의 처음 - 시작 범위 구하기. 이진 탐색 응용
 - [ ] Find K Closest Elements : 어떤 수가 주어졌을때, 그 수에 가까운 K개의 수 구하기
 - [x] Peak Index in a Mountain Array : Peak 값 찾기
+- [x] The K Weakest Rows in a Matrix : 각 row 에서 1의 갯수가 작은(같다면 인덱스가 작은쪽이 우선) 순서대로 인덱스를 정렬한 뒤 k개만 리턴하기.
 
 ### Binary Tree & Binary Search Tree
 
