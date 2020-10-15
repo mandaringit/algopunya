@@ -62,6 +62,7 @@
 - [x] Final Prices With a Special Discount in a Shop : i번째 아이템을 사면, i < j 이면서 prices[i] >= prices[j]를 만족하는 가장 작은 인덱스 j의 가격 만큼 할인이 가능하다. 각 아이템의 마지막 가격은? (monotonic stack)
 - [x] Number of Recent Calls : 특정 시간 프레임 안의 요청의 갯수를 세는 클래스 만들기
 - [x] Build an Array With Stack Operations : 1 ~ n까지 수를 순회할때, target을 만들기 위해 수행할 Push & Pop 연산을 배열에 담아 리턴.
+- [x] Remove All Adjacent Duplicates In String : 인접한 중복된 알파벳 지우기
 
 ### Binary Search
 
