@@ -55,6 +55,7 @@
 - [x] Reverse Words in a String III : string의 각 단어를 뒤집자.
 - [x] Sort Array By Parity II : 짝 /홀 순서로 정렬하기
 - [x] Average Salary Excluding the Minimum and Maximum Salary : 최대 / 최소를 제외한 평균 구하기
+- [x] Groups of Special-Equivalent Strings : 홀수 인덱스 & 짝수 인덱스끼리 짝이 맞는 쌍들의 그룹 갯수 구하기
 
 # Stack & Queue
 
