@@ -1,4 +1,4 @@
-# [LEETCODE] 문제풀이
+y# [LEETCODE] 문제풀이
 
 리트코드 정복하기
 
@@ -67,6 +67,7 @@
 - [x] Build an Array With Stack Operations : 1 ~ n까지 수를 순회할때, target을 만들기 위해 수행할 Push & Pop 연산을 배열에 담아 리턴.
 - [x] Remove All Adjacent Duplicates In String : 인접한 중복된 알파벳 지우기
 - [x] Relative Sort Array : arr1을 arr2에 있는 순서대로 먼저 정렬한 뒤, arr2에 없는 수는 뒤쪽에 오름차순 정렬하기
+- [x] Matrix Cells in Distance Order : 이차원 배열의 특정 좌표에서 거리가 가까운 순으로 좌표들 정렬하기
 
 ### Binary Search
 
