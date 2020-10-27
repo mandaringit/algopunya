@@ -153,6 +153,7 @@ y# [LEETCODE] 문제풀이
 - [x] Decrypt String from Alphabet to Integer Mapping : 문자열 해독하기 (숫자#, 숫자 구분)
 - [x] Self Dividing Numbers : 상한과 하한이 주어질 때 그 안에서 가능한 self dividing number 모두 구하기
 - [x] Robot Return to Origin : (0,0)에서 시작한 로봇이 주어진 방향으로 움직인 뒤 원래 자리에 있을지 여부 판단
+- [x] Available Captures for Rook : 룩처럼 움직여서 폰을 몇개나 잡는지 찾기
 
 ### hashmap / hashset
 
