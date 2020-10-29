@@ -57,6 +57,7 @@ y# [LEETCODE] 문제풀이
 - [x] Average Salary Excluding the Minimum and Maximum Salary : 최대 / 최소를 제외한 평균 구하기
 - [x] Groups of Special-Equivalent Strings : 홀수 인덱스 & 짝수 인덱스끼리 짝이 맞는 쌍들의 그룹 갯수 구하기
 - [x] Unique Email Addresses : 주어진 조건을 만족하는 유니크한 이메일 갯수 구하기
+- [x] Minimum Absolute Difference : 두 수의 차이의 절대값이 최소인 쌍들 구하기
 
 # Stack & Queue
 
