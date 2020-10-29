@@ -58,6 +58,7 @@ y# [LEETCODE] 문제풀이
 - [x] Groups of Special-Equivalent Strings : 홀수 인덱스 & 짝수 인덱스끼리 짝이 맞는 쌍들의 그룹 갯수 구하기
 - [x] Unique Email Addresses : 주어진 조건을 만족하는 유니크한 이메일 갯수 구하기
 - [x] Minimum Absolute Difference : 두 수의 차이의 절대값이 최소인 쌍들 구하기
+- [x] Find the Distance Value Between Two Arrays : arr1의 원소 중, arr2와의 차이의 절대값이 d보다 작은 경우가 "없는" arr1의 갯수 구하기
 
 # Stack & Queue
 
