@@ -62,6 +62,7 @@ y# [LEETCODE] 문제풀이
 - [x] Mean of Array After Removing Some Elements : 전체 배열에서 작은 5%, 큰 5% 수들을 날리고 난뒤에 남은 수들의 평균 구하기
 - [x] Island Perimeter : 섬의 둘레 구하기
 - [x] Three Consecutive Odds : 연속해서 3개의 홀수가 나오는 경우가 있는지 판단하기
+- [x] Goat Latin : 규칙대로 문자열 변형하기
 
 # Stack & Queue
 
