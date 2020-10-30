@@ -61,6 +61,7 @@ y# [LEETCODE] 문제풀이
 - [x] Find the Distance Value Between Two Arrays : arr1의 원소 중, arr2와의 차이의 절대값이 d보다 작은 경우가 "없는" arr1의 갯수 구하기
 - [x] Mean of Array After Removing Some Elements : 전체 배열에서 작은 5%, 큰 5% 수들을 날리고 난뒤에 남은 수들의 평균 구하기
 - [x] Island Perimeter : 섬의 둘레 구하기
+- [x] Three Consecutive Odds : 연속해서 3개의 홀수가 나오는 경우가 있는지 판단하기
 
 # Stack & Queue
 
