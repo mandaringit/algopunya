@@ -175,6 +175,7 @@ y# [LEETCODE] 문제풀이
 - [x] Convert Binary Number in a Linked List to Integer : Singley Linked List에 있는 이진수를 십진수로 변환하기
 - [x] Hamming Distance : 두 수 x, y를 이진수로 표현했을 때 같은 자리에 서로 다른 비트는 몇개 있는지 구하라.
 - [x] Sort Integers by The Number of 1 Bits : 숫자를 이진수로 변환했을 때 1인 비트수로 정렬하기
+- [x] Single Number : 모든 수가 하나를 제외하고 중복되서 나타날때, 그 수를 찾아라.
 
 ### math
 
