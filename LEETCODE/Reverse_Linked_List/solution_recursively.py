@@ -1,10 +1,16 @@
-class Solution:
-    def reverseList(self, head: ListNode) -> ListNode:
-        self.reverse(head, None)
-
-    def reverse(self, head, newHead):
+# Definition for singly-linked list.
+# class ListNode(object):
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+class Solution(object):
+    def reverseList(self, head, prev=None):
+        """
+        :type head: ListNode
+        :rtype: ListNode
+        """
         if not head:
-            return newHead
+            return prev
         next = head.next
-        head.next = newHead
-        return self.reverse(head.next, head)
+        head.next = prev
+        return self.reverseList(next, head)
