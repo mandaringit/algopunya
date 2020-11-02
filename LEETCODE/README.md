@@ -7,6 +7,7 @@ y# [LEETCODE] 문제풀이
 - 💪 : 기초적인 문제. 첫 틀을 잡는데 도움
 - 🤔 : 고민했던 문제
 - 👀 : 좀더 효율적인 방법은 없는지 찾아볼 문제
+- 🔝 : TOP 100 Interview
 
 ## 문제 리스트
 
@@ -16,13 +17,13 @@ y# [LEETCODE] 문제풀이
 - [x] Find Numbers with Even Number of Digits : 숫자 -> 문자열 & 길이로 풀기
 - [x] Find Pivot Index : [0 ~ i] , [i ~ 끝] 두 배열의 전체 합이 같아지는 i 찾기. sum()은 O(N). 더 효율적인 방법은?
 - [x] Largest Number At Least Twice of Others : 가장 큰 수를 찾고, 그 수가 다른 수들보다 2배 이상인지 아닌지 확인하기
-- [x] Plus One : 배열로 각 digit이 주어질때 , 1을 더한 수를 배열로 다시 리턴하기. 인덱스 다루기.
+- [x] 🔝 Plus One : 배열로 각 digit이 주어질때 , 1을 더한 수를 배열로 다시 리턴하기. 인덱스 다루기.
 - [x] Diagonal Traverse : 2차원 배열 대각선 순회하기
-- [x] Pascal Triangle : 파스칼 삼각형 만들기, 인덱스 다루기
+- [x] 🔝 Pascal Triangle : 파스칼 삼각형 만들기, 인덱스 다루기
 - [x] Add Binary : 이진수 더하기 (문자열 다루기 ?)
-- [x] 👀Implement strStr() : 문자열 A 안에 B가 있는지 찾는 문제 (find() 함수 등의 내부 동작 원리, KMP 알고리즘 시도해보기)
-- [x] Longest Common Prefix : 단어들 모두가 공통으로 가지고 있는 접두사 (prefix) 중 가장 긴 접두사를 찾아라
-- [x] Reverse String : 배열안에 문자들을 반대로 뒤집는다. 단 원본 배열 그대로, 공간 복잡도 O(1)을 유지해야한다. - 투포인터
+- [x] 👀 🔝 Implement strStr() : 문자열 A 안에 B가 있는지 찾는 문제 (find() 함수 등의 내부 동작 원리, KMP 알고리즘 시도해보기)
+- [x] 🔝 Longest Common Prefix : 단어들 모두가 공통으로 가지고 있는 접두사 (prefix) 중 가장 긴 접두사를 찾아라
+- [x] 🔝 Reverse String : 배열안에 문자들을 반대로 뒤집는다. 단 원본 배열 그대로, 공간 복잡도 O(1)을 유지해야한다. - 투포인터
 - [x] Array Partition I : 2n 개의 정수 배열이 주어질때, 이 정수들을 n개의 짝으로 묶어야 하는데, 이 짝에서 작은 쪽의 합이 가장 큰 경우를 구하라 - 투포인터
 - [x] Two Sum II : (정렬된 경우) 두 수의 합이 특정 수가 되는 경우, 두 수의 인덱스 찾기 - 투포인터
 - [x] Max Consecutive Ones : 1이 연속적으로 나오는 길이들 중 가장 긴것 찾기 - 투포인터
@@ -78,7 +79,7 @@ y# [LEETCODE] 문제풀이
 ### Binary Search
 
 - [x] 💪BinarySearch : 이진탐색이란?
-- [x] Sqrt(x) : 특정 수의 제곱근 찾기.
+- [x] 🔝 Sqrt(x) : 특정 수의 제곱근 찾기.
 - [x] Guess Number Higher or Lower : 술게임에서 소주병 밑에 숫자 맞추는 업다운 게임임. 이진탐색 기초
 - [x] Search in Rotated Sorted Array : 정렬된 배열이 특정 인덱스를 기준으로 뒤집혀있을때, 특정 수 찾기
 - [x] First Bad Version : 정렬된 배열에서 특정 조건이 처음 나타나는 위치 찾기. 브루트포스 O(N) vs 이진탐색 O(logN)
@@ -91,11 +92,11 @@ y# [LEETCODE] 문제풀이
 
 ### Binary Tree & Binary Search Tree
 
-- [x] 💪Binary Tree Inorder Traversal : 배열로 주어진 이진 트리를 Inorder - Traversal, 중위순회 하기. (재귀 & 순회)
+- [x] 💪🔝 Binary Tree Inorder Traversal : 배열로 주어진 이진 트리를 Inorder - Traversal, 중위순회 하기. (재귀 & 순회)
 - [x] 💪Binary Tree Level Order Traversal : 이진트리가 주어졌을때, Level Order - Traversal, 레벨 순회 하기
 - [x] 💪Binary Tree Postorder Traversal : 이진 트리가 주어졌을때, Postorder - Traversal, 후위순회 하기. (재귀 & 순회)
 - [x] 💪Binary Tree Preorder Traversal : 배열로 주어진 이진 트리를 PreOrder - Traversal, 전위순회 하기. (재귀 & 순회)
-- [x] Maximum Depth of Binary Tree : 이진 트리의 최대 깊이 찾기
+- [x] 🔝 Maximum Depth of Binary Tree : 이진 트리의 최대 깊이 찾기
 - [x] 🤔Validate Binary Search Tree : 올바른 Binary Search Tree 인지 판단하기 (D&C)
 - [x] Binary Search Tree Iterator : 이진 탐색 트리 BST 이터레이터를 직접 구현해보는 문제
 - [x] 💪Search in a Binary Search Tree : 이진 탐색 트리에서 검색 연산 구현하기
@@ -124,20 +125,21 @@ y# [LEETCODE] 문제풀이
 
 - [x] Pascal's Triangle II : 파스칼의 삼각형 2. O(K) 공간만 사용
 - [x] Fibonacci Number : N번째 피보나치 수 구하기.
-- [x] 🤔Climbing Stairs : 1걸음 또는 2걸음만 걸을 수 있을 때, n개의 계단에 오르는 경우의 수는?
+- [x] 🤔🔝 Climbing Stairs : 1걸음 또는 2걸음만 걸을 수 있을 때, n개의 계단에 오르는 경우의 수는?
 - [x] Pow(x,n) : x의 n승 구하기
 - [x] Sort an Array : 배열 정렬하기 (Merge Sort)
 - [x] 🤔Search a 2D Matrix : 각 row 별, col 별로 오름차순 정렬된 2차원 배열에서 효율적으로 숫자 찾기 - D&C로 풀어볼것
 - [x] 🤔N-Queens II : N이 주어질 때 가능한 N-Queens 경우의 수를 찾아라.
 - [x] 🤔Sudoku Solver : 스도쿠 풀기 (백트래킹)
 - [x] Same Tree : 같은 이진 트리인지 확인하기
-- [x] Generate Parentheses : n개의 `()`를 사용할 수 있을 때, 가능한 괄호 조합을 모두 찾기.
+- [x] 🔝 Generate Parentheses : n개의 `()`를 사용할 수 있을 때, 가능한 괄호 조합을 모두 찾기.
 
 ### Linked List
 
 - [x] Middle of the Linked List : Singly Linked List의 중간 구하기
+- [x] 🔝 Delete Node in a Linked List : SLL에서 삭제할 노드가 주어질 때 직접 삭제하기.
+- [ ] 🤔🔝 Reversed Linked List : 링크드 리스트 뒤집기
 - [ ] 🤔Swap Node In Pairs : 링크드 리스트가 주어졌을 때, 인접한 두개의 노드의 헤드를 서로 바꾸기.
-- [ ] 🤔Reverse Linked List : 링크드 리스트 뒤집기
 
 ### 구현
 
@@ -175,7 +177,7 @@ y# [LEETCODE] 문제풀이
 - [x] Convert Binary Number in a Linked List to Integer : Singley Linked List에 있는 이진수를 십진수로 변환하기
 - [x] Hamming Distance : 두 수 x, y를 이진수로 표현했을 때 같은 자리에 서로 다른 비트는 몇개 있는지 구하라.
 - [x] Sort Integers by The Number of 1 Bits : 숫자를 이진수로 변환했을 때 1인 비트수로 정렬하기
-- [x] Single Number : 모든 수가 하나를 제외하고 중복되서 나타날때, 그 수를 찾아라.
+- [x] 🔝 Single Number : 모든 수가 하나를 제외하고 중복되서 나타날때, 그 수를 찾아라.
 
 ### math
 
