@@ -64,6 +64,7 @@ y# [LEETCODE] 문제풀이
 - [x] Island Perimeter : 섬의 둘레 구하기
 - [x] Three Consecutive Odds : 연속해서 3개의 홀수가 나오는 경우가 있는지 판단하기
 - [x] Goat Latin : 규칙대로 문자열 변형하기
+- [x] 🔝 Majority Element : 전체에서 과반(Majority)인 수 찾기
 
 # Stack & Queue
 
@@ -185,7 +186,7 @@ y# [LEETCODE] 문제풀이
 - [x] Find Positive Integer Solution for a Given Equation : `f(x, y) < f(x + 1, y)`, `f(x, y) < f(x, y + 1)`를 만족하는 랜덤 함수가 주어질 때, `f(x,y) == z`를 만족하는 쌍을 모두 찾아라.
 - [x] Projection Area of 3D Shapes : `h = grid[i][j]` 일때, 이를 xy,yz,xz 평면에서 투영한 너비의 합을 구하라.
 - [x] Divisor Game : N보다 작은 N의 공약수가 있는지 찾기
-- [x] Fizz Buzz : 1 ~ n 까지의 수를 출력하는데, 3의 배수는 Fizz 5의 배수는 Buzz, 3과 5의 배수는 FizzBuzz로 대체하기.
+- [x] 🔝 Fizz Buzz : 1 ~ n 까지의 수를 출력하는데, 3의 배수는 Fizz 5의 배수는 Buzz, 3과 5의 배수는 FizzBuzz로 대체하기.
 
 ### Greedy
 
