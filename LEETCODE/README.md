@@ -110,6 +110,7 @@ y# [LEETCODE] 문제풀이
 - [x] Increasing Order Search Tree : BST를 in-order 순서로 재정렬하기
 - [x] Sum of Root To Leaf Binary Numbers : 모든 값이 0 또는 1인 이진 트리에서 가장 루트를 MSB로 해서, 리프노드까지 값으로 만들어지는 이진수의 합을 구하라.
 - [x] Univalued Binary Tree : 이진트리의 모든 노드 값이 동일한지 체크
+- [x] 🔝 Convert Sorted Array to Binary Search Tree : 정렬된 배열을 높이가 균형잡힌 BST로 변환하기
 
 ### N-ary Tree / Trie
 
