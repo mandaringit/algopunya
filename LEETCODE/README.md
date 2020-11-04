@@ -194,6 +194,7 @@ y# [LEETCODE] 문제풀이
 
 - [x] Minimum Subsequence in Non-Increasing Order : sum(부분집합) > sum(그외 요소들)인 부분집합을 구하라. 여러개가 존재할 경우 가장 작은 사이즈, 그리고 같은 사이즈라면 합이 더 큰 것을 찾자.
 - [x] Delete Columns to Make Sorted : 세로로 (column) 묶은 쌍이 오름차순이 아닌것의 개수 카운팅
+- [x] 🔝 Best Time to Buy and Sell Stock II : 원하는 만큼의 사고팔고가 가능할 때 최대 이익을 찾아라.
 
 ### ?
 
