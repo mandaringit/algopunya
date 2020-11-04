@@ -174,6 +174,7 @@ y# [LEETCODE] 문제풀이
 - [x] Subdomain Visit Count : 모든 하위도메인의 방문 횟수 구하기
 - [x] Find Common Characters : 모든 단어에 공통으로 들어가는 charaters 찾기(중복 포함)
 - [x] Find Words That Can Be Formed by Characters : 특정 단어안에 있는 알파벳들로 구성 가능한 단어들 구하기
+- [x] 🔝 Valid Anagram : 유효한 anagram인지 확인하기 (각 알파벳 갯수가 동일한가?)
 
 ### bit
 
