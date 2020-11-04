@@ -67,7 +67,7 @@ y# [LEETCODE] 문제풀이
 - [x] 🔝 Majority Element : 전체에서 과반(Majority)인 수 찾기
 - [x] 🔝 Move Zeroes : 배열에서 0을 뒤쪽으로 모두 밀어라. (in-place)
 
-# Stack & Queue
+### Stack & Queue
 
 - [x] Design Circular Queue : 원형 큐 구현하기
 - [x] Split a String in Balanced Strings : L과 R이 동일한 갯수만큼 들어간 string을 balanced string이라고 할 때, 문자열 s에서 balanced string의 갯수는?
@@ -141,8 +141,8 @@ y# [LEETCODE] 문제풀이
 
 - [x] Middle of the Linked List : Singly Linked List의 중간 구하기
 - [x] 🔝 Delete Node in a Linked List : SLL에서 삭제할 노드가 주어질 때 직접 삭제하기.
-- [ ] 🤔🔝 Reverse Linked List : 링크드 리스트 뒤집기
-- [ ] 🤔Swap Node In Pairs : 링크드 리스트가 주어졌을 때, 인접한 두개의 노드의 헤드를 서로 바꾸기.
+- [x] 🤔🔝 Reverse Linked List : 링크드 리스트 뒤집기
+- [ ] 🤔 Swap Node In Pairs : 링크드 리스트가 주어졌을 때, 인접한 두개의 노드의 헤드를 서로 바꾸기.
 
 ### 구현
 
@@ -175,6 +175,7 @@ y# [LEETCODE] 문제풀이
 - [x] Find Common Characters : 모든 단어에 공통으로 들어가는 charaters 찾기(중복 포함)
 - [x] Find Words That Can Be Formed by Characters : 특정 단어안에 있는 알파벳들로 구성 가능한 단어들 구하기
 - [x] 🔝 Valid Anagram : 유효한 anagram인지 확인하기 (각 알파벳 갯수가 동일한가?)
+- [x] 🔝 Contains Duplicate : 중복을 포함하는가?
 
 ### bit
 
