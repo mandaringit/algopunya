@@ -190,6 +190,7 @@ y# [LEETCODE] 문제풀이
 - [x] Projection Area of 3D Shapes : `h = grid[i][j]` 일때, 이를 xy,yz,xz 평면에서 투영한 너비의 합을 구하라.
 - [x] Divisor Game : N보다 작은 N의 공약수가 있는지 찾기
 - [x] 🔝 Fizz Buzz : 1 ~ n 까지의 수를 출력하는데, 3의 배수는 Fizz 5의 배수는 Buzz, 3과 5의 배수는 FizzBuzz로 대체하기.
+- [x] 🔝 Excel Sheet Column Number : A -> 1, Z -> 26, AA -> 27, AB -> 28 같은 규칙일때 알파벳에 해당하는 숫자를 찾자 (26진수)
 
 ### Greedy
 
