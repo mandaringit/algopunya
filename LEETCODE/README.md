@@ -143,6 +143,7 @@ y# [LEETCODE] 문제풀이
 - [x] 🔝 Delete Node in a Linked List : SLL에서 삭제할 노드가 주어질 때 직접 삭제하기.
 - [x] 🤔🔝 Reverse Linked List : 링크드 리스트 뒤집기
 - [ ] 🤔 Swap Node In Pairs : 링크드 리스트가 주어졌을 때, 인접한 두개의 노드의 헤드를 서로 바꾸기.
+- [x] 🔝 Merge Two Sorted Lists : 정렬된 두 싱글 링크드 리스트 합치기
 
 ### 구현
 
