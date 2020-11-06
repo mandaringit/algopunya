@@ -177,6 +177,7 @@ y# [LEETCODE] 문제풀이
 - [x] Find Words That Can Be Formed by Characters : 특정 단어안에 있는 알파벳들로 구성 가능한 단어들 구하기
 - [x] 🔝 Valid Anagram : 유효한 anagram인지 확인하기 (각 알파벳 갯수가 동일한가?)
 - [x] 🔝 Contains Duplicate : 중복을 포함하는가?
+- [x] 🔝 First Unique Character in a String : 문자열에서 가장 먼저 나오는 유니크한 character의 인덱스 찾기
 
 ### bit
 
