@@ -203,6 +203,10 @@ y# [LEETCODE] 문제풀이
 - [x] Delete Columns to Make Sorted : 세로로 (column) 묶은 쌍이 오름차순이 아닌것의 개수 카운팅
 - [x] 🔝 Best Time to Buy and Sell Stock II : 원하는 만큼의 사고팔고가 가능할 때 최대 이익을 찾아라.
 
+### DP
+
+- [x] Longest Common Subsequence : 두 문자열이 가지는 최장 공통 부분 순서(LCS) 길이 구하기
+
 ### ?
 
 - [ ] Contain Duplicate III : 정수 배열이 주어졌을때, abs(nums[i] - nums[j]) >= t 이며 abs(i-j) >= k인 두개의 인덱스 i, j가 존재하는지 확인하라.
