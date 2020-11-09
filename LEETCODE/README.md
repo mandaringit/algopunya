@@ -187,6 +187,7 @@ y# [LEETCODE] 문제풀이
 - [x] Sort Integers by The Number of 1 Bits : 숫자를 이진수로 변환했을 때 1인 비트수로 정렬하기
 - [x] 🔝 Single Number : 모든 수가 하나를 제외하고 중복되서 나타날때, 그 수를 찾아라.
 - [x] 🔝 Missing Number : 0 ~ N까지 숫자 중 없는 숫자 찾기(시간 O(N), 공간 O(1))
+- [x] 🔝 Number of 1 Bits : 1비트 갯수 구하기
 
 ### math
 
