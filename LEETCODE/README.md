@@ -178,6 +178,7 @@ y# [LEETCODE] 문제풀이
 - [x] 🔝 Valid Anagram : 유효한 anagram인지 확인하기 (각 알파벳 갯수가 동일한가?)
 - [x] 🔝 Contains Duplicate : 중복을 포함하는가?
 - [x] 🔝 First Unique Character in a String : 문자열에서 가장 먼저 나오는 유니크한 character의 인덱스 찾기
+- [x] 🔝 Intersection of Two Arrays II : 두 배열의 교집합 찾기
 
 ### bit
 
