@@ -179,6 +179,7 @@ y# [LEETCODE] 문제풀이
 - [x] 🔝 Contains Duplicate : 중복을 포함하는가?
 - [x] 🔝 First Unique Character in a String : 문자열에서 가장 먼저 나오는 유니크한 character의 인덱스 찾기
 - [x] 🔝 Intersection of Two Arrays II : 두 배열의 교집합 찾기
+- [x] 🔝 Happy Number : 각 자릿수를 제곱해 더하는 행동을 반복할 때, 1이 될 수 있을까 없을까.
 
 ### bit
 
