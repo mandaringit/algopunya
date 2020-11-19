@@ -149,6 +149,7 @@ y# [LEETCODE] 문제풀이
 - [x] 🔝 Merge Two Sorted Lists : 정렬된 두 싱글 링크드 리스트 합치기
 - [x] 🔝 Intersection of Two Linked Lists : 두 링크드 리스트가 같아지는(intersection) 지점 찾기
 - [x] 🔝 Linked List Cycle : 링크드 리스트에서 사이클 검출하기
+- [x] 🔝 Palindrome Linked List : 링크드 리스트의 팰린드롬(정방향-역방향 모두 같은 모양) 여부 확인
 
 ### 구현
 
