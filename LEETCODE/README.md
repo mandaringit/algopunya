@@ -67,6 +67,7 @@ y# [LEETCODE] 문제풀이
 - [x] 🔝 Majority Element : 전체에서 과반(Majority)인 수 찾기
 - [x] 🔝 Move Zeroes : 배열에서 0을 뒤쪽으로 모두 밀어라. (in-place)
 - [x] 🔝 Remove Duplicates from Sorted Array : 정렬된 배열에서 중복 제거하기 (in-place)
+- [x] 🔝 Valid Palindrome : 알파벳, 숫자만 체크할 때 유효한 팰린드롬인지 확인
 
 ### Stack & Queue
 
