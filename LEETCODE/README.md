@@ -210,6 +210,7 @@ y# [LEETCODE] 문제풀이
 - [x] 🔝 Excel Sheet Column Number : A -> 1, Z -> 26, AA -> 27, AB -> 28 같은 규칙일때 알파벳에 해당하는 숫자를 찾자 (26진수)
 - [x] 🔝 Roman to Integer : 로마자를 숫자로 변환하기
 - [x] 🔝 Power of Three : 3의 멱승인지 확인
+- [x] 🔝 Factorial Trailing Zeroes : 팩토리얼 했을때 뒤따라 나오는 0이 몇개인가?
 
 ### Greedy
 
