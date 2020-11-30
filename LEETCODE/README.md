@@ -211,6 +211,7 @@ y# [LEETCODE] 문제풀이
 - [x] 🔝 Roman to Integer : 로마자를 숫자로 변환하기
 - [x] 🔝 Power of Three : 3의 멱승인지 확인
 - [x] 🔝 Factorial Trailing Zeroes : 팩토리얼 했을때 뒤따라 나오는 0이 몇개인가?
+- [x] 🔝 Count Primes : n보다 작은 소수 갯수 구하기
 
 ### Greedy
 
