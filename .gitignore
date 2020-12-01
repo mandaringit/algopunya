@@ -154,3 +154,7 @@ dmypy.json
 # End of https://www.gitignore.io/api/python,visualstudiocode,jupyternotebooks
 .DS_Store
 
+
+# TEMP
+LEETCODE/Combinations/solution.py
+LEETCODE/Design_Circular_Queue/solution2.py
