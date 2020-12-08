@@ -117,6 +117,7 @@ y# [LEETCODE] 문제풀이
 - [x] Univalued Binary Tree : 이진트리의 모든 노드 값이 동일한지 체크
 - [x] 🔝 Convert Sorted Array to Binary Search Tree : 정렬된 배열을 높이가 균형잡힌 BST로 변환하기
 - [x] 🔝 Symmetric Tree : 트리가 정확히 대칭인지 확인하기
+- [x] 🔝 py : BST에서 K번째로 작은 요소 찾기
 
 ### N-ary Tree / Trie
 
