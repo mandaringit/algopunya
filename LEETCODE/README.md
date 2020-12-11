@@ -69,6 +69,7 @@ y# [LEETCODE] 문제풀이
 - [x] 🔝 Remove Duplicates from Sorted Array : 정렬된 배열에서 중복 제거하기 (in-place)
 - [x] 🔝 Valid Palindrome : 알파벳, 숫자만 체크할 때 유효한 팰린드롬인지 확인
 - [x] 🔝 Product of Array Except Self : 자기 자신을 제외한 나머지 수들의 곱으로 이뤄진 배열 구하기
+- [x] 🔝 Rotate Image : 2차원 배열(이미지) 90도 회전시키기
 
 ### Stack & Queue
 
