@@ -8,6 +8,7 @@ y# [LEETCODE] 문제풀이
 - 🤔 : 고민했던 문제
 - 👀 : 좀더 효율적인 방법은 없는지 찾아볼 문제
 - 🔝 : TOP 100 Interview
+- 🔥 : TOP 100 Liked Question
 
 ## 문제 리스트
 
@@ -64,8 +65,8 @@ y# [LEETCODE] 문제풀이
 - [x] Island Perimeter : 섬의 둘레 구하기
 - [x] Three Consecutive Odds : 연속해서 3개의 홀수가 나오는 경우가 있는지 판단하기
 - [x] Goat Latin : 규칙대로 문자열 변형하기
-- [x] 🔝 Majority Element : 전체에서 과반(Majority)인 수 찾기
-- [x] 🔝 Move Zeroes : 배열에서 0을 뒤쪽으로 모두 밀어라. (in-place)
+- [x] 🔝🔥 Majority Element : 전체에서 과반(Majority)인 수 찾기
+- [x] 🔝🔥 Move Zeroes : 배열에서 0을 뒤쪽으로 모두 밀어라. (in-place)
 - [x] 🔝 Remove Duplicates from Sorted Array : 정렬된 배열에서 중복 제거하기 (in-place)
 - [x] 🔝 Valid Palindrome : 알파벳, 숫자만 체크할 때 유효한 팰린드롬인지 확인
 - [x] 🔝 Product of Array Except Self : 자기 자신을 제외한 나머지 수들의 곱으로 이뤄진 배열 구하기
@@ -104,7 +105,7 @@ y# [LEETCODE] 문제풀이
 - [x] 💪Binary Tree Level Order Traversal : 이진트리가 주어졌을때, Level Order - Traversal, 레벨 순회 하기
 - [x] 💪Binary Tree Postorder Traversal : 이진 트리가 주어졌을때, Postorder - Traversal, 후위순회 하기. (재귀 & 순회)
 - [x] 💪Binary Tree Preorder Traversal : 배열로 주어진 이진 트리를 PreOrder - Traversal, 전위순회 하기. (재귀 & 순회)
-- [x] 🔝 Maximum Depth of Binary Tree : 이진 트리의 최대 깊이 찾기
+- [x] 🔥🔝 Maximum Depth of Binary Tree : 이진 트리의 최대 깊이 찾기
 - [x] 🤔Validate Binary Search Tree : 올바른 Binary Search Tree 인지 판단하기 (D&C)
 - [x] Binary Search Tree Iterator : 이진 탐색 트리 BST 이터레이터를 직접 구현해보는 문제
 - [x] 💪Search in a Binary Search Tree : 이진 탐색 트리에서 검색 연산 구현하기
@@ -113,13 +114,14 @@ y# [LEETCODE] 문제풀이
 - [x] 🤔Kth Largest Element in a Stream : 요소에서 K번째로 큰 숫자 찾기 (heapq)
 - [x] Lowest Common Ancestor of a Binary Search Tree : 이진 탐색 트리 BST에서 노드 두개가 주어질때, 두 노드가 가지는 가장 낮은 공통 조상(Lowest Common Ancestor)을 찾아라.
 - [x] Range Sum of BST : BST의 특정 구간 안에 포함된 수 모두 더하기
-- [x] Merge Two Binary Trees : 두개의 이진트리 합치기
+- [x] 🔥 Merge Two Binary Trees : 두개의 이진트리 합치기
 - [x] Increasing Order Search Tree : BST를 in-order 순서로 재정렬하기
 - [x] Sum of Root To Leaf Binary Numbers : 모든 값이 0 또는 1인 이진 트리에서 가장 루트를 MSB로 해서, 리프노드까지 값으로 만들어지는 이진수의 합을 구하라.
 - [x] Univalued Binary Tree : 이진트리의 모든 노드 값이 동일한지 체크
 - [x] 🔝 Convert Sorted Array to Binary Search Tree : 정렬된 배열을 높이가 균형잡힌 BST로 변환하기
 - [x] 🔝 Symmetric Tree : 트리가 정확히 대칭인지 확인하기
 - [x] 🔝 py : BST에서 K번째로 작은 요소 찾기
+- [x] 🔥 Invert Binary Tree : 이진트리 뒤집기 (대칭시키기)
 
 ### N-ary Tree / Trie
 
@@ -151,7 +153,7 @@ y# [LEETCODE] 문제풀이
 
 - [x] Middle of the Linked List : Singly Linked List의 중간 구하기
 - [x] 🔝 Delete Node in a Linked List : SLL에서 삭제할 노드가 주어질 때 직접 삭제하기.
-- [x] 🤔🔝 Reverse Linked List : 링크드 리스트 뒤집기
+- [x] 🤔🔝🔥 Reverse Linked List : 링크드 리스트 뒤집기
 - [ ] 🤔 Swap Node In Pairs : 링크드 리스트가 주어졌을 때, 인접한 두개의 노드의 헤드를 서로 바꾸기.
 - [x] 🔝 Merge Two Sorted Lists : 정렬된 두 싱글 링크드 리스트 합치기
 - [x] 🔝 Intersection of Two Linked Lists : 두 링크드 리스트가 같아지는(intersection) 지점 찾기
@@ -204,7 +206,7 @@ y# [LEETCODE] 문제풀이
 - [x] Convert Binary Number in a Linked List to Integer : Singley Linked List에 있는 이진수를 십진수로 변환하기
 - [x] Hamming Distance : 두 수 x, y를 이진수로 표현했을 때 같은 자리에 서로 다른 비트는 몇개 있는지 구하라.
 - [x] Sort Integers by The Number of 1 Bits : 숫자를 이진수로 변환했을 때 1인 비트수로 정렬하기
-- [x] 🔝 Single Number : 모든 수가 하나를 제외하고 중복되서 나타날때, 그 수를 찾아라.
+- [x] 🔝🔥 Single Number : 모든 수가 하나를 제외하고 중복되서 나타날때, 그 수를 찾아라.
 - [x] 🔝 Missing Number : 0 ~ N까지 숫자 중 없는 숫자 찾기(시간 O(N), 공간 O(1))
 - [x] 🔝 Number of 1 Bits : 1비트 갯수 구하기
 - [x] 🔝 Reverse Bits : 비트 뒤집기
