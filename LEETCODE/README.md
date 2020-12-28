@@ -71,6 +71,7 @@ y# [LEETCODE] 문제풀이
 - [x] 🔝 Valid Palindrome : 알파벳, 숫자만 체크할 때 유효한 팰린드롬인지 확인
 - [x] 🔝 Product of Array Except Self : 자기 자신을 제외한 나머지 수들의 곱으로 이뤄진 배열 구하기
 - [x] 🔝 Rotate Image : 2차원 배열(이미지) 90도 회전시키기
+- [x] 🔥 Find All Numbers Disappeared in an Array : n의 길이의 배열에 1 ~ n 의 크기를 가진 원소들이 두번 또는 한번씩 나타날 때, 없는 원소를 찾자.
 
 ### Stack & Queue
 
