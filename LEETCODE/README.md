@@ -123,6 +123,7 @@ y# [LEETCODE] 문제풀이
 - [x] 🔝 Symmetric Tree : 트리가 정확히 대칭인지 확인하기
 - [x] 🔝 py : BST에서 K번째로 작은 요소 찾기
 - [x] 🔥 Invert Binary Tree : 이진트리 뒤집기 (대칭시키기)
+- [x] 🔥 Diameter of Binary Tree : 이진트리의 최대 지름 구하기
 
 ### N-ary Tree / Trie
 
