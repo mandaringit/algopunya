@@ -233,6 +233,7 @@ y# [LEETCODE] 문제풀이
 - [x] Delete Columns to Make Sorted : 세로로 (column) 묶은 쌍이 오름차순이 아닌것의 개수 카운팅
 - [x] 🔝 Best Time to Buy and Sell Stock II : 원하는 만큼의 사고팔고가 가능할 때 최대 이익을 찾아라.
 - [x] 🔥 Partition Labels : 각 알파벳이 '기껏해야' 하나의 파티션에만 나타나도록 분할하기
+- [x] 🔥 Queue Reconstruction by Height : 높이에 따라 큐 정렬하기
 
 ### DP
 
