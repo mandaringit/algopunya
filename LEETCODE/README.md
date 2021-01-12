@@ -85,6 +85,7 @@ y# [LEETCODE] 문제풀이
 - [x] Matrix Cells in Distance Order : 이차원 배열의 특정 좌표에서 거리가 가까운 순으로 좌표들 정렬하기
 - [x] 🔝 Min Stack : 항상 최솟값을 알 수 있는 MinStack 구현하기
 - [x] 🔝 Valid Parentheses : 유효한 괄호인지 확인
+- [x] 🔥 Daily Temperatures : 온도로 이뤄진 배열이 있을 때, 해당 온도 이후의 온도중, 더 높고 가장 가까운 다른 온도의 위치 찾기
 
 ### Binary Search
 
