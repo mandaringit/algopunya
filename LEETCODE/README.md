@@ -244,6 +244,7 @@ y# [LEETCODE] 문제풀이
 - [x] 🔝 Maximum Subarray : 연속적인 부분배열 중 합이 최대가 되는 것 찾기
 - [x] 🔝 House Robber : 인접한 두 원소를 선택할 수 없을 때, 선택한 모든 원소의 합의 최대를 구하자.
 - [x] 🔥 Counting Bits : `0 <= i <= num`의 정수 i들의 2진수 표현의 1의 갯수 세기 (시간 O(N) & 공간 O(N))
+- [x] 🔥 Unique Paths : 오른쪽과 아래로만 갈 수 있을 때, 유일한 경로의 갯수는?
 
 ### ?
 
