@@ -73,6 +73,7 @@ y# [LEETCODE] 문제풀이
 - [x] 🔝 Rotate Image : 2차원 배열(이미지) 90도 회전시키기
 - [x] 🔥 Find All Numbers Disappeared in an Array : n의 길이의 배열에 1 ~ n 의 크기를 가진 원소들이 두번 또는 한번씩 나타날 때, 없는 원소를 찾자.
 - [x] Most Common Word : 가장 자주 나오는 단어 찾기
+- [x] Longest Palindromic Substring : 문자열 s의 부분 문자열 중, 팰린드롬인 가장 긴 부분 수열 찾기.
 
 ### Stack & Queue
 
@@ -252,3 +253,20 @@ y# [LEETCODE] 문제풀이
 
 - [ ] Contain Duplicate III : 정수 배열이 주어졌을때, abs(nums[i] - nums[j]) >= t 이며 abs(i-j) >= k인 두개의 인덱스 i, j가 존재하는지 확인하라.
 - [x] How Many Numbers Are Smaller Than the Current Number : 배열에서 현재 값 보다 작은건 몇개인지 알아내기
+
+## 파이썬 알고리즘 인터뷰
+
+### 문자열
+
+전처리를 적절하게 잘 수행하자.
+
+- 잘 나누기. `split()`
+- 정렬하기. `key = lambda x: (첫번째, 두번째 ...)`
+- 정규표현식. `re.sub()`으로 교체.
+
+1. Valid Palindrome
+2. Reverse String
+3. Most Common Word
+4. Reorder Data in Log Files
+5. Group Anagrams
+6. Longest Palindromic Substring
