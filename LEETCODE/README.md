@@ -1,4 +1,4 @@
-y# [LEETCODE] 문제풀이
+# [LEETCODE] 문제풀이
 
 리트코드 정복하기
 
@@ -74,6 +74,8 @@ y# [LEETCODE] 문제풀이
 - [x] 🔥 Find All Numbers Disappeared in an Array : n의 길이의 배열에 1 ~ n 의 크기를 가진 원소들이 두번 또는 한번씩 나타날 때, 없는 원소를 찾자.
 - [x] Most Common Word : 가장 자주 나오는 단어 찾기
 - [x] Longest Palindromic Substring : 문자열 s의 부분 문자열 중, 팰린드롬인 가장 긴 부분 수열 찾기.
+- [ ] Trapping Rain Water
+- [ ] 3Sum
 
 ### Stack & Queue
 
@@ -263,6 +265,7 @@ y# [LEETCODE] 문제풀이
 - 잘 나누기. `split()`
 - 정렬하기. `key = lambda x: (첫번째, 두번째 ...)`
 - 정규표현식. `re.sub()`으로 교체.
+- 투포인터.
 
 1. Valid Palindrome
 2. Reverse String
@@ -270,3 +273,14 @@ y# [LEETCODE] 문제풀이
 4. Reorder Data in Log Files
 5. Group Anagrams
 6. Longest Palindromic Substring
+
+### 배열
+
+- in 연산 쪽이 그냥 찾는것보다 빠름.
+- 투포인터
+
+1. Two Sum
+2. Trapping Rain Water
+3. 3Sum
+4. Array Partition I
+5. Best Time to Buy and Sell Stock
