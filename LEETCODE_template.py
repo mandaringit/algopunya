@@ -19,5 +19,14 @@ if not os.path.isdir(directory):
         f.write(f"# [LEETCODE] {question_name}\n\n")
         f.write(f"### 접근")
         print("README.md 생성 완료")
+
+    interview_file = input(
+        '인터뷰 문제풀이 파일을 생성할까요? (Y/N) ---> solution.interview.py')
+
+    if interview_file.lower() == 'y':
+        with open(f"LEETCODE/{underbar_name}/solution.interview.py", 'w') as f:
+            print(f"solution.interview.py 생성 완료")
+    else:
+        print("인터뷰 파일은 생략합니다.")
 else:
     print("경로가 이미 존재합니다.")
